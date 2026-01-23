@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/forest50
+amb=moderate.amb
+fast_mean_us=174.62
+fast_median_us=168.364
+fast_iqr_us=12.949
+mosek_mean_us=3064.46
+mosek_median_us=2982.45
+mosek_iqr_us=351.79

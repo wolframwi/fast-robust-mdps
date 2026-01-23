@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=severe.amb
+avg_abs_fast_mosek=4.14477e-07
+max_abs_fast_mosek=1.06497e-06

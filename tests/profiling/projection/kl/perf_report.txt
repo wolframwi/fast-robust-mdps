@@ -1,0 +1,815 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 18K of event 'cycles:P'
+# Event count (approx.): 21302620342
+#
+# Children      Self  Command     Shared Object         Symbol                                                                                                                                                                                                                                                                      
+# ........  ........  ..........  ....................  ............................................................................................................................................................................................................................................................................
+#
+    89.97%    44.01%  kl_profile  kl_profile            [.] fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |          
+            |--45.96%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |          |          
+            |          |--15.38%--exp
+            |          |          
+            |          |--1.99%--0x747911d98b64
+            |          |          
+            |          |--1.67%--0x747911d98bfa
+            |          |          
+            |          |--1.50%--0x747911d98bc9
+            |          |          
+            |          |--1.41%--0x747911d98b9a
+            |          |          
+            |          |--0.88%--0x747911d98bd2
+            |          |          
+            |          |--0.85%--0x747911d98c1f
+            |          |          
+            |          |--0.80%--0x747911d98c08
+            |          |          
+            |          |--0.70%--0x747911d98c03
+            |          |          
+            |          |--0.65%--0x747911d98b69
+            |          |          
+            |          |--0.62%--0x747911d98ba1
+            |          |          
+            |          |--0.52%--0x747911d98c11
+            |          |          
+            |           --0.51%--0x747911d98b6c
+            |          
+            |--14.59%--0x563a99aeff40
+            |          |          
+            |           --13.71%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |                     |          
+            |                      --4.59%--exp
+            |          
+            |--14.36%--0x563a99aefc00
+            |          |          
+            |           --13.62%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |                     |          
+            |                      --4.68%--exp
+            |          
+            |--13.91%--0x563a99aefda0
+            |          |          
+            |           --13.02%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |                     |          
+            |                      --4.31%--exp
+            |          
+             --1.07%--_start
+                       __libc_start_main
+                       0x74791162a1ca
+                       main
+                       |          
+                        --1.04%--fast_kl::solve_projection_problem(fast_kl::ProjectionInput const&)
+
+    43.24%    16.54%  kl_profile  libm.so.6             [.] exp
+            |          
+            |--26.70%--exp
+            |          
+            |--5.61%--0x563a99aefda0
+            |          |          
+            |           --5.25%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |                     |          
+            |                      --1.77%--exp
+            |          
+            |--5.60%--0x563a99aeff40
+            |          |          
+            |           --5.24%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |                     |          
+            |                      --1.77%--exp
+            |          
+             --5.33%--0x563a99aefc00
+                       |          
+                        --4.93%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+                                  |          
+                                   --1.46%--exp
+
+    31.04%     0.00%  kl_profile  [unknown]             [.] 0x0000563a99aeff40
+            |
+            ---0x563a99aeff40
+               |          
+               |--29.10%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+               |          |          
+               |          |--9.64%--exp
+               |          |          
+               |          |--1.14%--0x747911d98b64
+               |          |          
+               |          |--0.86%--0x747911d98b9a
+               |          |          
+               |          |--0.85%--0x747911d98bfa
+               |          |          
+               |          |--0.81%--0x747911d98bc9
+               |          |          
+               |          |--0.66%--0x747911d98c08
+               |          |          
+               |          |--0.57%--0x747911d98bd2
+               |          |          
+               |           --0.57%--0x747911d98c03
+               |          
+               |--1.21%--exp
+               |          
+                --0.74%--exp@plt
+
+    30.48%     0.00%  kl_profile  [unknown]             [.] 0x0000563a99aefc00
+            |
+            ---0x563a99aefc00
+               |          
+               |--28.73%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+               |          |          
+               |          |--9.66%--exp
+               |          |          
+               |          |--1.06%--0x747911d98b64
+               |          |          
+               |          |--0.92%--0x747911d98bfa
+               |          |          
+               |          |--0.80%--0x747911d98b9a
+               |          |          
+               |          |--0.78%--0x747911d98bc9
+               |          |          
+               |          |--0.72%--0x747911d98bd2
+               |          |          
+               |          |--0.62%--0x747911d98c03
+               |          |          
+               |           --0.59%--0x747911d98c08
+               |          
+               |--1.09%--exp
+               |          
+                --0.66%--exp@plt
+
+    30.39%     0.00%  kl_profile  [unknown]             [.] 0x0000563a99aefda0
+            |
+            ---0x563a99aefda0
+               |          
+               |--28.47%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+               |          |          
+               |          |--9.66%--exp
+               |          |          
+               |          |--1.10%--0x747911d98b64
+               |          |          
+               |          |--0.94%--0x747911d98bfa
+               |          |          
+               |          |--0.85%--0x747911d98bc9
+               |          |          
+               |          |--0.80%--0x747911d98b9a
+               |          |          
+               |          |--0.68%--0x747911d98c08
+               |          |          
+               |           --0.58%--0x747911d98bd2
+               |          
+               |--1.22%--exp
+               |          
+                --0.70%--exp@plt
+
+     7.84%     0.00%  kl_profile  kl_profile            [.] _start
+            |
+            ---_start
+               __libc_start_main
+               0x74791162a1ca
+               |          
+                --7.72%--main
+                          |          
+                          |--2.85%--fast_kl::solve_projection_problem(fast_kl::ProjectionInput const&)
+                          |          
+                           --0.51%--0x747911d98e42
+
+     7.84%     0.00%  kl_profile  libc.so.6             [.] __libc_start_main
+            |
+            ---__libc_start_main
+               0x74791162a1ca
+               |          
+                --7.72%--main
+                          |          
+                          |--2.85%--fast_kl::solve_projection_problem(fast_kl::ProjectionInput const&)
+                          |          
+                           --0.51%--0x747911d98e42
+
+     7.84%     0.00%  kl_profile  libc.so.6             [.] 0x000074791162a1ca
+            |
+            ---0x74791162a1ca
+               |          
+                --7.72%--main
+                          |          
+                          |--2.85%--fast_kl::solve_projection_problem(fast_kl::ProjectionInput const&)
+                          |          
+                           --0.51%--0x747911d98e42
+
+     7.73%     0.11%  kl_profile  kl_profile            [.] main
+            |          
+             --7.62%--main
+                       |          
+                       |--2.83%--fast_kl::solve_projection_problem(fast_kl::ProjectionInput const&)
+                       |          
+                        --0.51%--0x747911d98e42
+
+     5.77%     3.23%  kl_profile  kl_profile            [.] fast_kl::solve_projection_problem(fast_kl::ProjectionInput const&)
+            |          
+            |--2.54%--fast_kl::solve_projection_problem(fast_kl::ProjectionInput const&)
+            |          
+            |--1.12%--_start
+            |          __libc_start_main
+            |          0x74791162a1ca
+            |          |          
+            |           --1.09%--main
+            |          
+            |--0.79%--0x563a99aefda0
+            |          |          
+            |           --0.74%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |          
+            |--0.70%--0x563a99aeff40
+            |          |          
+            |           --0.67%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |          
+             --0.61%--0x563a99aefc00
+                       |          
+                        --0.57%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+
+     4.04%     1.97%  kl_profile  kl_profile            [.] exp@plt
+            |          
+            |--2.06%--exp@plt
+            |          
+            |--0.69%--0x563a99aefda0
+            |          |          
+            |           --0.66%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |          
+            |--0.67%--0x563a99aefc00
+            |          |          
+            |           --0.62%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |          
+             --0.62%--0x563a99aeff40
+                       |          
+                        --0.58%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+
+     3.30%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b64
+            |
+            ---0x747911d98b64
+
+     2.76%     2.36%  kl_profile  libm.so.6             [.] __exp_finite@plt
+            |          
+            |--0.87%--0x563a99aeff40
+            |          |          
+            |           --0.81%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |          
+            |--0.77%--0x563a99aefc00
+            |          |          
+            |           --0.74%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+            |          
+             --0.72%--0x563a99aefda0
+                       |          
+                        --0.70%--fast_kl::(anonymous namespace)::compute_p_and_expectation(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, double, std::vector<double, std::allocator<double> >&, double&) [clone .isra.0]
+
+     2.72%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bfa
+            |
+            ---0x747911d98bfa
+
+     2.47%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b9a
+            |
+            ---0x747911d98b9a
+
+     2.44%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bc9
+            |
+            ---0x747911d98bc9
+
+     1.92%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98c08
+            |
+            ---0x747911d98c08
+
+     1.86%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bd2
+            |
+            ---0x747911d98bd2
+
+     1.68%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98c03
+            |
+            ---0x747911d98c03
+
+     1.36%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98c1f
+            |
+            ---0x747911d98c1f
+
+     1.32%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b69
+            |
+            ---0x747911d98b69
+
+     1.21%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98ba1
+            |
+            ---0x747911d98ba1
+
+     1.14%     1.14%  kl_profile  libm.so.6             [.] 0x0000000000079b76
+     1.08%     1.08%  kl_profile  libm.so.6             [.] 0x0000000000079be2
+     1.08%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b6c
+            |
+            ---0x747911d98b6c
+
+     1.01%     1.01%  kl_profile  libm.so.6             [.] 0x0000000000079bd2
+     0.99%     0.99%  kl_profile  libm.so.6             [.] 0x0000000000079c20
+     0.95%     0.95%  kl_profile  libm.so.6             [.] 0x0000000000079ba9
+     0.95%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98ba9
+            |
+            ---0x747911d98ba9
+
+     0.92%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bd5
+            |
+            ---0x747911d98bd5
+
+     0.91%     0.91%  kl_profile  libm.so.6             [.] 0x0000000000079c1f
+     0.91%     0.46%  kl_profile  libm.so.6             [.] log
+     0.89%     0.89%  kl_profile  libm.so.6             [.] 0x0000000000079b64
+     0.87%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98c11
+            |
+            ---0x747911d98c11
+
+     0.82%     0.82%  kl_profile  libm.so.6             [.] 0x0000000000079bc6
+     0.81%     0.81%  kl_profile  libm.so.6             [.] 0x0000000000079b70
+     0.80%     0.80%  kl_profile  libm.so.6             [.] 0x0000000000079b9a
+     0.78%     0.78%  kl_profile  libm.so.6             [.] 0x0000000000079b69
+     0.76%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98be2
+            |
+            ---0x747911d98be2
+
+     0.76%     0.76%  kl_profile  libm.so.6             [.] 0x0000000000079bd5
+     0.75%     0.75%  kl_profile  libm.so.6             [.] 0x0000000000079c1a
+     0.73%     0.73%  kl_profile  libm.so.6             [.] 0x0000000000079b60
+     0.71%     0.71%  kl_profile  libm.so.6             [.] 0x0000000000079bc3
+     0.70%     0.70%  kl_profile  libm.so.6             [.] 0x0000000000079c0c
+     0.70%     0.70%  kl_profile  libm.so.6             [.] 0x0000000000079b7c
+     0.70%     0.70%  kl_profile  libm.so.6             [.] 0x0000000000079ba1
+     0.69%     0.69%  kl_profile  libm.so.6             [.] 0x0000000000079b8d
+     0.69%     0.69%  kl_profile  libm.so.6             [.] 0x0000000000079bc9
+     0.69%     0.69%  kl_profile  libm.so.6             [.] 0x0000000000079b85
+     0.69%     0.69%  kl_profile  libm.so.6             [.] 0x0000000000079bb2
+     0.68%     0.68%  kl_profile  libm.so.6             [.] 0x0000000000079bae
+     0.67%     0.67%  kl_profile  libm.so.6             [.] 0x0000000000079bba
+     0.65%     0.65%  kl_profile  libm.so.6             [.] 0x0000000000079bf6
+     0.65%     0.65%  kl_profile  libm.so.6             [.] 0x0000000000079b91
+     0.64%     0.64%  kl_profile  libm.so.6             [.] 0x0000000000079be5
+     0.63%     0.63%  kl_profile  libm.so.6             [.] 0x0000000000079bee
+     0.62%     0.62%  kl_profile  libm.so.6             [.] 0x0000000000079c15
+     0.62%     0.62%  kl_profile  libm.so.6             [.] 0x0000000000079c08
+     0.60%     0.60%  kl_profile  libm.so.6             [.] 0x0000000000079c03
+     0.59%     0.59%  kl_profile  libm.so.6             [.] 0x0000000000079bd9
+     0.57%     0.57%  kl_profile  libm.so.6             [.] 0x0000000000079bfa
+     0.55%     0.55%  kl_profile  libm.so.6             [.] 0x0000000000079c11
+     0.51%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e42
+            |
+            ---0x747911d98e42
+
+     0.47%     0.35%  kl_profile  libc.so.6             [.] malloc
+     0.36%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98c22
+     0.35%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98ded
+     0.30%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bba
+     0.28%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bb2
+     0.25%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e12
+     0.25%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d89
+     0.24%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e4b
+     0.24%     0.19%  kl_profile  kl_profile            [.] log@plt
+     0.23%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d00
+     0.23%     0.10%  kl_profile  libstdc++.so.6.0.33   [.] operator new(unsigned long)
+     0.23%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e0e
+     0.22%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e3d
+     0.22%     0.22%  kl_profile  libm.so.6             [.] 0x0000000000079de9
+     0.21%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b7c
+     0.21%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d99
+     0.21%     0.07%  kl_profile  libc.so.6             [.] cfree
+     0.20%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98dca
+     0.20%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b7f
+     0.19%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8e00f4b
+     0.19%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d63
+     0.19%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98de9
+     0.18%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d5e
+     0.18%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c4853b
+     0.17%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7aac54e
+     0.17%     0.17%  kl_profile  libm.so.6             [.] 0x0000000000079dd9
+     0.17%     0.17%  kl_profile  libm.so.6             [.] 0x0000000000079d00
+     0.16%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98dc2
+     0.14%     0.01%  kl_profile  kl_profile            [.] mdp::(anonymous namespace)::read_vector(std::istream&, std::vector<double, std::allocator<double> >&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+     0.14%     0.14%  kl_profile  libm.so.6             [.] 0x0000000000079df0
+     0.13%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c0ca56
+     0.13%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c0bc2f
+     0.13%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c23a78
+     0.13%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c23558
+     0.13%     0.13%  kl_profile  libm.so.6             [.] 0x0000000000079cf8
+     0.13%     0.01%  kl_profile  libstdc++.so.6.0.33   [.] std::istream& std::istream::_M_extract<double>(double&)
+     0.13%     0.13%  kl_profile  libm.so.6             [.] 0x0000000000079daf
+     0.12%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c0aab9
+     0.12%     0.12%  kl_profile  libm.so.6             [.] 0x0000000000079dd1
+     0.12%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::do_get(std::istreambuf_iterator<char, std::char_traits<char> >, std::istreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, std::_Ios_Iostate&, double&) const
+     0.12%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b8d
+     0.11%     0.11%  kl_profile  libm.so.6             [.] __log_finite@plt
+     0.11%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bf6
+     0.11%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b91
+     0.10%     0.10%  kl_profile  libm.so.6             [.] 0x0000000000079ded
+     0.10%     0.10%  kl_profile  kl_profile            [.] std::vector<double, std::allocator<double> >::operator=(std::vector<double, std::allocator<double> > const&) [clone .isra.0]
+     0.10%     0.10%  kl_profile  libm.so.6             [.] 0x0000000000079e16
+     0.10%     0.10%  kl_profile  libm.so.6             [.] 0x0000000000079da0
+     0.10%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bc3
+     0.10%     0.10%  kl_profile  libm.so.6             [.] 0x0000000000079dd5
+     0.10%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1bee
+     0.10%     0.10%  kl_profile  libm.so.6             [.] 0x0000000000079d80
+     0.09%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bc6
+     0.09%     0.09%  kl_profile  libm.so.6             [.] 0x0000000000079de6
+     0.09%     0.09%  kl_profile  libm.so.6             [.] 0x0000000000079e34
+     0.09%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98b60
+     0.09%     0.09%  kl_profile  libm.so.6             [.] 0x0000000000079e1a
+     0.09%     0.09%  kl_profile  libm.so.6             [.] 0x0000000000079dbf
+     0.08%     0.08%  kl_profile  libm.so.6             [.] 0x0000000000079e05
+     0.08%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98bee
+     0.08%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b65458
+     0.08%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b7ae6d
+     0.08%     0.08%  kl_profile  libm.so.6             [.] 0x0000000000079ddc
+     0.08%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98dce
+     0.08%     0.08%  kl_profile  libm.so.6             [.] 0x0000000000079d99
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079dac
+     0.07%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d70
+     0.07%     0.07%  kl_profile  libc.so.6             [.] 0x00000000001a146f
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079e4b
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079d63
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079da4
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079d83
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079d8f
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079df9
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079db7
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079d54
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079dce
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079e3d
+     0.07%     0.07%  kl_profile  libm.so.6             [.] 0x0000000000079dc2
+     0.06%     0.06%  kl_profile  libm.so.6             [.] 0x0000000000079dca
+     0.06%     0.06%  kl_profile  libm.so.6             [.] 0x0000000000079e42
+     0.06%     0.01%  kl_profile  libstdc++.so.6.0.33   [.] std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_float(std::istreambuf_iterator<char, std::char_traits<char> >, std::istreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, std::_Ios_Iostate&, std::string&) const
+     0.06%     0.06%  kl_profile  libm.so.6             [.] 0x0000000000079d73
+     0.06%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b7aa26
+     0.06%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e47
+     0.06%     0.06%  kl_profile  libm.so.6             [.] 0x0000000000079e27
+     0.06%     0.06%  kl_profile  libm.so.6             [.] 0x0000000000079d5e
+     0.06%     0.06%  kl_profile  libm.so.6             [.] 0x0000000000079dff
+     0.06%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1c2f
+     0.06%     0.06%  kl_profile  libm.so.6             [.] 0x0000000000079d70
+     0.05%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a148f
+     0.05%     0.05%  kl_profile  libm.so.6             [.] 0x0000000000079d6d
+     0.05%     0.05%  kl_profile  libm.so.6             [.] 0x0000000000079e1e
+     0.05%     0.05%  kl_profile  libc.so.6             [.] 0x00000000001a1bc9
+     0.05%     0.05%  kl_profile  libm.so.6             [.] 0x0000000000079df4
+     0.05%     0.00%  kl_profile  [unknown]             [k] 0000000000000000
+     0.04%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a143c
+     0.04%     0.04%  kl_profile  libm.so.6             [.] 0x0000000000079e2b
+     0.04%     0.04%  kl_profile  libm.so.6             [.] 0x0000000000079e12
+     0.04%     0.04%  kl_profile  libm.so.6             [.] 0x0000000000079d77
+     0.03%     0.03%  kl_profile  libc.so.6             [.] 0x00000000001a1b4d
+     0.03%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98da4
+     0.03%     0.03%  kl_profile  libstdc++.so.6.0.33   [.] operator delete(void*, unsigned long)
+     0.03%     0.03%  kl_profile  libm.so.6             [.] 0x0000000000079d50
+     0.03%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e05
+     0.03%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
+     0.03%     0.03%  kl_profile  libc.so.6             [.] 0x00000000001a1477
+     0.03%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98c1a
+     0.03%     0.03%  kl_profile  libm.so.6             [.] 0x0000000000079e0e
+     0.03%     0.03%  kl_profile  libc.so.6             [.] 0x00000000001a1bdf
+     0.03%     0.03%  kl_profile  libstdc++.so.6.0.33   [.] pthread_once@plt
+     0.03%     0.01%  kl_profile  [unknown]             [.] 0xffffffffb8e00f30
+     0.03%     0.03%  kl_profile  libm.so.6             [.] 0x0000000000079e47
+     0.03%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b65412
+     0.03%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da5eac
+     0.03%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d54
+     0.03%     0.03%  kl_profile  libc.so.6             [.] 0x00000000001a147f
+     0.02%     0.02%  kl_profile  libstdc++.so.6.0.33   [.] free@plt
+     0.02%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab2a1
+     0.02%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b690f6
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1468
+     0.02%     0.01%  kl_profile  libstdc++.so.6.0.33   [.] operator delete(void*)
+     0.02%     0.02%  kl_profile  libstdc++.so.6.0.33   [.] operator delete(void*)@plt
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1461
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1b44
+     0.02%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7a66fc3
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1be7
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1416
+     0.02%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c0c9e5
+     0.02%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::string::reserve(unsigned long)
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a145a
+     0.02%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e27
+     0.02%     0.02%  kl_profile  kl_profile            [.] memset@plt
+     0.02%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1307
+     0.02%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab1d9
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000000ab1d9
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000000ab18e
+     0.02%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98dd9
+     0.02%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b653d3
+     0.02%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b739bb
+     0.02%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a146f
+     0.02%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98e34
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1487
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1bc7
+     0.02%     0.01%  kl_profile  libstdc++.so.6.0.33   [.] std::istream::sentry::sentry(std::istream&, bool)
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1bcf
+     0.02%     0.02%  kl_profile  libc.so.6             [.] 0x00000000001a1444
+     0.02%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb8e00130
+     0.02%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb8c4313f
+     0.01%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] 0x0000747911b42070
+     0.01%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long)
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab1fc
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab1e2
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab1a8
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1454
+     0.01%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98dbf
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c0ca7f
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c22f33
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c201c3
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b5f040
+     0.01%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d77
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1c44
+     0.01%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98de6
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab1ba
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab2a6
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab1c5
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab1c1
+     0.01%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98c0c
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da1b93
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7a15df3
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7ac6a19
+     0.01%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98d83
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8271e63
+     0.01%     0.01%  kl_profile  libstdc++.so.6.0.33   [.] malloc@plt
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c48540
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8271e4d
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b7a950
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7a66fc0
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1b53
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b6cc78
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b95a92
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7a68500
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c46259
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c46158
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab1d2
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8271e78
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab369
+     0.01%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb8271e74
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb826e518
+     0.01%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::basic_filebuf<char, std::char_traits<char> >::underflow()
+     0.01%     0.00%  kl_profile  libc.so.6             [.] read
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7a074b0
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7ef3729
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7ef3673
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7ef275c
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7fee5c3
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7dc560b
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7dc405d
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb826fc1f
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x000000000004dd4b
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x000000000004dba5
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab180
+     0.01%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::string::push_back(char)
+     0.01%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+     0.01%     0.01%  kl_profile  libstdc++.so.6.0.33   [.] 0x00000000001164ec
+     0.01%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e95971
+     0.01%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e5be29
+     0.01%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e5a642
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab2a1
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7e57dd2
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1bba
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8e00bc7
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c493d3
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7ad6e19
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7e2e74a
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7e2e404
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7e2dd9b
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7e2cbaf
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7e2c9bc
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7e95ce4
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8bcac57
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x000074791165ae5f
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x000000000004e92e
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x000000000004e932
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab202
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8e015e5
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c0c9b1
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c5a34e
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7ba4cab
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8c49c81
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f2f38abbbcabd2b
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1c28
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7da63cc
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da1ac4
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f2c1acb413d7d05
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7b7aa08
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1407
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab17b
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b5f05d
+     0.01%     0.01%  kl_profile  kl_profile            [.] operator delete(void*, unsigned long)@plt
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8271ee6
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b66f8e
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7b690fa
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b69143
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7b7aa16
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b5f037
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7c1d456
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8271eb0
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b7aa01
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1313
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab176
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f22bc7139bccb3e
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab376
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8271eb9
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8271e2d
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7aac521
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f34ebcb26f68eff
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1468
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab1ca
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7b6ccaa
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b6cf2e
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b86be8
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7c10666
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000599b9
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x000074791164de40
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7ab7999
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab2a6
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7da1b55
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab1ed
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1c36
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7ab79fa
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8271e6d
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f34de561e4cab80
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1bee
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7b69139
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1b40
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8c46193
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb8c5a3ec
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b0fe01
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1300
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1bd6
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c49cc3
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7da1acd
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b6911e
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c4854b
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c49c62
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b38cde
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b555a3
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f4070da350d7e64
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7c0c969
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a142d
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7d9b345
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a144c
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b1026e
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b0fe08
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1407
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b690f8
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479116ab171
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f39f38722d703ac
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000000ab17c
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c0aa59
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b898d9
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b892ea
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c4742d
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1434
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a141d
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f236e8c03667f30
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1bc7
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a142d
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7c89003
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c0aa84
+     0.01%     0.01%  kl_profile  libc.so.6             [.] 0x00000000001a1454
+     0.01%     0.01%  kl_profile  [unknown]             [k] 0xffffffffb7ac6c04
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7d9b346
+     0.01%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1b4a
+     0.01%     0.00%  kl_profile  [unknown]             [.] 0x3f373ee8d652c629
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7b73956
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1c36
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1c44
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e468c6
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7a07e5b
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7b0d918
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7b0d865
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7b0d3b6
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7b0d0be
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7b01141
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7b01001
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e37a9a
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e27d65
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e27729
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e27466
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e26881
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e25ccf
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e468f3
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x00007479117a1bf5
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b67001
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c2e7b2
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c2e38a
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb82725d3
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b690fd
+     0.00%     0.00%  kl_profile  libm.so.6             [.] 0x0000747911d98daf
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7c10669
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x00000000001a144c
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x00000000000ab1ce
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7a68395
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da1ad4
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x00000000001a1bc0
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x00000000000ab35d
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x000000000004eb84
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x000074791164fdad
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7b69129
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8271e1b
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e37548
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e3875e
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e36f46
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0x3f3b607c1544364e
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x000000000004dbd7
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x000074791164eb89
+     0.00%     0.00%  kl_profile  libc.so.6             [.] 0x000074791164dd0c
+     0.00%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] 0x0000747911b420a5
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000000000015378
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e375a0
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e1d824
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e1d71f
+     0.00%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] 0x0000747911ab750c
+     0.00%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::ios_base_library_init()
+     0.00%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::locale::locale()
+     0.00%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] 0x0000747911ae9884
+     0.00%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::locale::_Impl::_Impl(unsigned long)
+     0.00%     0.00%  kl_profile  libstdc++.so.6.0.33   [.] std::ctype<wchar_t>::_M_convert_to_wmask(unsigned short) const
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x000000000000b19b
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e3a789
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e27ae3
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e231fc
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e228c9
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e223c6
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e20e14
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e3a41c
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e1ae67
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] _dl_catch_exception
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e1aa2d
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e21529
+     0.00%     0.00%  kl_profile  ld-linux-x86-64.so.2  [.] 0x0000747911e3f4fa
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8e011b0
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0x000073f23b8eef3b
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7a07627
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7effa47
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7eff6e8
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7efd536
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7efd442
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7efd149
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7efcbb7
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7ee5f12
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7efc545
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e5835a
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7f9046d
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7efda90
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7efc6d9
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e3ed41
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e3e8a1
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e29931
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e95dbb
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7e56d0b
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0x000073f23b8eef3b
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb8e00130
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb8c4313f
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7a07627
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7effa47
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7eff6e8
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7efd536
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7efd442
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7efd149
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7efcbb7
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7f90392
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7effff0
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb8c54495
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7dad880
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8e00fcb
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c4846b
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c49bae
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c51bd3
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c51764
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b56490
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da7861
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da7648
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da752f
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7d98e8c
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da7160
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7d9954d
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7dad81e
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7da8083
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7da7c3f
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7da7648
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7da752f
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7da714a
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7da6dbd
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7da4345
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7a15caf
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7a15b5a
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb8e0190e
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7d9b310
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da714a
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da6dbd
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da4345
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7a15caf
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7a15b5a
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7da63fb
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7d9ab67
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb7b994a5
+     0.00%     0.00%  kl_profile  [unknown]             [.] 0xffffffffb8c46251
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7da63d7
+     0.00%     0.00%  kl_profile  [unknown]             [k] 0xffffffffb7da63bc
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7ac6c08
+     0.00%     0.00%  perf-exec   [unknown]             [k] 0xffffffffb7ac6c04
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

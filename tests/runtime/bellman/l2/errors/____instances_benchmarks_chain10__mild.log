@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/chain10
+amb=mild.amb
+avg_abs_fast_mosek=3.33177e-06
+max_abs_fast_mosek=5.75038e-06
+avg_abs_fast_cplex=9.08912e-05
+max_abs_fast_cplex=0.000177453
+avg_abs_fast_gurobi=1.37262e-05
+max_abs_fast_gurobi=4.55038e-05

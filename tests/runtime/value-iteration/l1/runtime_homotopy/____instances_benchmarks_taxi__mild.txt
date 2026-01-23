@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/taxi
+amb=mild.amb
+homotopy_vi_iterations=1094
+homotopy_vi_s=12.2793

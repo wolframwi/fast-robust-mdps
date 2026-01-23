@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/taxi
+amb=mild.amb
+fast_vi_iterations=1025
+mosek_vi_iterations=-1
+fast_vi_s=414.544
+mosek_vi_s=0
+vi_infty_diff_fast_mosek=-1
+mosek_failed=1

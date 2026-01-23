@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/frozenlake8x8
+amb=mild.amb
+avg_linf_fast_mosek=3.06663e-06
+avg_l1_fast_mosek=1.41169e-05
+avg_cons_fast_mosek=4.92364e-07
+avg_obj_fast_mosek=1.91449e-08
+max_linf_fast_mosek=1.04077e-05
+max_l1_fast_mosek=6.28186e-05
+max_cons_fast_mosek=1.46957e-06
+max_obj_fast_mosek=1.3357e-07

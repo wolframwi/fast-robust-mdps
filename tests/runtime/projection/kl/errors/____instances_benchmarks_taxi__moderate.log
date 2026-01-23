@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/taxi
+amb=moderate.amb
+avg_linf_fast_mosek=1.37782e-06
+avg_l1_fast_mosek=1.76739e-05
+avg_cons_fast_mosek=1.33586e-05
+avg_obj_fast_mosek=4.12355e-08
+max_linf_fast_mosek=5.25348e-06
+max_l1_fast_mosek=7.0113e-05
+max_cons_fast_mosek=2.99489e-05
+max_obj_fast_mosek=3.57414e-07

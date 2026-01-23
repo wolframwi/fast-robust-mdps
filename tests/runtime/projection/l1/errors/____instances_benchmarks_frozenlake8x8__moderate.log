@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/frozenlake8x8
+amb=moderate.amb
+avg_obj_fast_mosek=9.58525e-11
+max_obj_fast_mosek=7.30489e-10
+avg_obj_fast_gurobi=9.58526e-11
+max_obj_fast_gurobi=7.30489e-10
+avg_obj_fast_cplex=9.58526e-11
+max_obj_fast_cplex=7.30489e-10

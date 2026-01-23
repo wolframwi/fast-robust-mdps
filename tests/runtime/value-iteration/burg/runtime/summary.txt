@@ -1,0 +1,2 @@
+total_instances=45
+mosek_failed_instances=5

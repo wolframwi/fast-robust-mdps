@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/gridworld25
+amb=mild.amb
+avg_abs_fast_mosek=1.39765e-05
+max_abs_fast_mosek=6.76517e-05

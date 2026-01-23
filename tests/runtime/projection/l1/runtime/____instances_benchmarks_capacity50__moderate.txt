@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=moderate.amb
+fast_mean_us=3.7158
+fast_median_us=3.666
+fast_iqr_us=0.11
+cplex_mean_us=279.845
+cplex_median_us=280.933
+cplex_iqr_us=9.393
+gurobi_mean_us=987.302
+gurobi_median_us=978.725
+gurobi_iqr_us=19.71
+mosek_mean_us=557.37
+mosek_median_us=559.944
+mosek_iqr_us=16.295

@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=moderate.amb
+homotopy_vi_iterations=980
+homotopy_vi_s=1.0866

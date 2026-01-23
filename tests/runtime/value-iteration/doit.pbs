@@ -1,0 +1,44 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=1:mem=32GB:cpu_type=rome
+#PBS -l walltime=23:59:59
+
+set -euo pipefail
+
+cd "$PBS_O_WORKDIR"
+
+export MKL_DEBUG_CPU_TYPE=5
+export MKL_ENABLE_INSTRUCTIONS=AVX2
+export MOSEKLM_LICENSE_FILE=/rds/general/user/wwiesema/home/mosek.lic
+export GRB_LICENSE_FILE=/rds/general/user/wwiesema/home/gurobi.lic
+
+manifest="manifest.tsv"
+line=$(sed -n "$((PBS_ARRAY_INDEX + 1))p" "$manifest")
+if [[ -z "${line:-}" ]]; then
+  echo "No manifest line for index ${PBS_ARRAY_INDEX}" >&2
+  exit 1
+fi
+
+IFS=$'\t' read -r method solver instance amb <<< "$line"
+
+case "$method" in
+  l1)
+    if [[ "$solver" == "homotopy" ]]; then
+      exe="./l1/l1_vi_homotopy_runtime"
+      solver_arg=""
+    else
+      exe="./l1/l1_vi_runtime"
+      solver_arg="--solver $solver"
+    fi
+    ;;
+  l2) exe="./l2/l2_vi_runtime" ; solver_arg="--solver $solver" ;;
+  kl) exe="./kl/kl_vi_runtime" ; solver_arg="--solver $solver" ;;
+  burg) exe="./burg/burg_vi_runtime" ; solver_arg="--solver $solver" ;;
+  *) echo "Unknown method: $method" >&2; exit 1 ;;
+esac
+
+if [[ ! -x "$exe" ]]; then
+  echo "Executable not found: $exe" >&2
+  exit 1
+fi
+
+exec $exe --instance "$instance" --amb "$amb" ${solver_arg:-}

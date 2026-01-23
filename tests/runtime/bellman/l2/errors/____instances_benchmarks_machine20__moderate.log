@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/machine20
+amb=moderate.amb
+avg_abs_fast_mosek=7.51386e-07
+max_abs_fast_mosek=9.91946e-07
+avg_abs_fast_cplex=7.50517e-07
+max_abs_fast_cplex=9.9037e-07
+avg_abs_fast_gurobi=7.39093e-07
+max_abs_fast_gurobi=9.28415e-07

@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/forest50
+amb=moderate.amb
+avg_linf_fast_mosek=7.68939e-06
+avg_l1_fast_mosek=2.47734e-05
+avg_cons_fast_mosek=4.00549e-06
+avg_obj_fast_mosek=6.23913e-08
+max_linf_fast_mosek=2.32073e-05
+max_l1_fast_mosek=6.77914e-05
+max_cons_fast_mosek=5.80948e-06
+max_obj_fast_mosek=1.03778e-07

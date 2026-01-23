@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=mild.amb
+avg_linf_fast_mosek=1.21906e-05
+avg_l1_fast_mosek=3.5416e-05
+avg_cons_fast_mosek=0.000198449
+avg_obj_fast_mosek=3.60493e-08
+max_linf_fast_mosek=3.3166e-05
+max_l1_fast_mosek=6.63448e-05
+max_cons_fast_mosek=0.000344139
+max_obj_fast_mosek=1.39169e-07

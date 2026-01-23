@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=severe.amb
+avg_abs_fast_mosek=2.60516e-07
+max_abs_fast_mosek=5.61443e-07
+avg_abs_fast_cplex=2.56044e-07
+max_abs_fast_cplex=5.61444e-07
+avg_abs_fast_gurobi=2.56687e-07
+max_abs_fast_gurobi=5.61443e-07

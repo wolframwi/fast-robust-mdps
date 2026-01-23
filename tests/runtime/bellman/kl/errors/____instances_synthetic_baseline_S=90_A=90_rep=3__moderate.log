@@ -1,0 +1,20 @@
+instance=../../../../instances/synthetic/baseline/S=90/A=90/rep=3
+amb=moderate.amb
+exception s=85 a=84 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=43 a=2 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=9 a=47 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=76 a=45 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=76 a=30 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=89 a=65 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=48 a=79 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=33 a=14 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=9 a=77 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=31 a=88 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=9 a=8 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=63 a=51 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=76 a=10 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=33 a=62 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=33 a=40 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=30 a=13 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+avg_abs_fast_mosek=6.20721e-05
+max_abs_fast_mosek=0.000191052

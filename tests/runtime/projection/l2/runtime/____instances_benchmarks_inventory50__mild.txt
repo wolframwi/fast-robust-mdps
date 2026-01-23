@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=mild.amb
+fast_mean_us=0.948656
+fast_median_us=0.932
+fast_iqr_us=0.129
+cplex_mean_us=223.12
+cplex_median_us=219.441
+cplex_iqr_us=10.867
+gurobi_mean_us=833.213
+gurobi_median_us=826.406
+gurobi_iqr_us=27.762
+mosek_mean_us=432.923
+mosek_median_us=429.317
+mosek_iqr_us=14.402

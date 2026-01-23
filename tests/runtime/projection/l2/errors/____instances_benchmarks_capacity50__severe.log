@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=severe.amb
+avg_obj_fast_mosek=4.39619e-09
+max_obj_fast_mosek=7.53488e-08
+avg_obj_fast_gurobi=1.50907e-09
+max_obj_fast_gurobi=1.14466e-08
+avg_obj_fast_cplex=1.11733e-09
+max_obj_fast_cplex=9.26417e-09

@@ -1,0 +1,8 @@
+instance=../../../../instances/synthetic/baseline/S=50/A=50/rep=6
+amb=moderate.amb
+fast_mean_us=826.06
+fast_median_us=822.199
+fast_iqr_us=300.904
+mosek_mean_us=197071
+mosek_median_us=139991
+mosek_iqr_us=128094

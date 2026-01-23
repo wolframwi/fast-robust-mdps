@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/cliffwalking
+amb=mild.amb
+homotopy_vi_iterations=918
+homotopy_vi_s=0.0556132

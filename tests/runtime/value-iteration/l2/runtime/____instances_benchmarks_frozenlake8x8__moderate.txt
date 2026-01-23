@@ -1,0 +1,17 @@
+instance=../../../../instances/benchmarks/frozenlake8x8
+amb=moderate.amb
+fast_vi_iterations=33
+cplex_vi_iterations=33
+gurobi_vi_iterations=33
+mosek_vi_iterations=33
+fast_vi_s=0.082385
+cplex_vi_s=5.95881
+gurobi_vi_s=5.93347
+mosek_vi_s=2.63934
+vi_infty_diff_fast_cplex=1.94622e-05
+vi_infty_diff_fast_gurobi=3.03276e-05
+vi_infty_diff_fast_mosek=3.58085e-05
+fast_failed=0
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

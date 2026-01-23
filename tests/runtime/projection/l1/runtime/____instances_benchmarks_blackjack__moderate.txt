@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=moderate.amb
+fast_mean_us=27.9982
+fast_median_us=27.772
+fast_iqr_us=1.342
+cplex_mean_us=793.856
+cplex_median_us=768.739
+cplex_iqr_us=230.637
+gurobi_mean_us=1746.59
+gurobi_median_us=1634.12
+gurobi_iqr_us=191.659
+mosek_mean_us=1294.6
+mosek_median_us=1278.7
+mosek_iqr_us=167.202

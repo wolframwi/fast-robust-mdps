@@ -1,0 +1,17 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=severe.amb
+fast_vi_iterations=38
+cplex_vi_iterations=40
+gurobi_vi_iterations=39
+mosek_vi_iterations=39
+fast_vi_s=0.239626
+cplex_vi_s=7.97891
+gurobi_vi_s=5.62341
+mosek_vi_s=2.65382
+vi_infty_diff_fast_cplex=0.000924528
+vi_infty_diff_fast_gurobi=7.5004e-05
+vi_infty_diff_fast_mosek=2.91637e-05
+fast_failed=0
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

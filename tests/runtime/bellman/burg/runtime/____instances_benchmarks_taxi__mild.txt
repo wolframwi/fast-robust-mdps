@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/taxi
+amb=mild.amb
+fast_mean_us=1023.6
+fast_median_us=827.498
+fast_iqr_us=152.85
+mosek_mean_us=153981
+mosek_median_us=144268
+mosek_iqr_us=61054.9

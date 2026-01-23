@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/cliffwalking
+amb=mild.amb
+fast_mean_us=323.698
+fast_median_us=390.729
+fast_iqr_us=90.437
+mosek_mean_us=4689.87
+mosek_median_us=3841.09
+mosek_iqr_us=780.586

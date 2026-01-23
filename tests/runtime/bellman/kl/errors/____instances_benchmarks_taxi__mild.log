@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/taxi
+amb=mild.amb
+exception s=430 a=2 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+avg_abs_fast_mosek=0.000761057
+max_abs_fast_mosek=0.00301719

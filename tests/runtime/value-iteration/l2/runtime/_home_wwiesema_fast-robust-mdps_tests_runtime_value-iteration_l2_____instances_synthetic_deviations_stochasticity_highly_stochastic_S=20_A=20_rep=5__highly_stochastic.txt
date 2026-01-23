@@ -1,0 +1,5 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/l2/../../../../instances/synthetic/deviations/stochasticity/highly_stochastic/S=20/A=20/rep=5
+amb=highly_stochastic.amb
+fast_vi_iterations=874
+fast_vi_s=1.24396
+fast_failed=0

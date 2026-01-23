@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/cliffwalking
+amb=severe.amb
+fast_mean_us=0.324411
+fast_median_us=0.23
+fast_iqr_us=0.189
+cplex_mean_us=202.971
+cplex_median_us=195.194
+cplex_iqr_us=22.805
+gurobi_mean_us=820.726
+gurobi_median_us=812.966
+gurobi_iqr_us=25.148
+mosek_mean_us=273.628
+mosek_median_us=266.572
+mosek_iqr_us=21.623

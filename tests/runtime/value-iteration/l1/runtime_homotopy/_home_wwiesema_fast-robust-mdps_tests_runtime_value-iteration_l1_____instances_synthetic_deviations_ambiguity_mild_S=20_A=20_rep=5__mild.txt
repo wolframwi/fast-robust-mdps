@@ -1,0 +1,4 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/l1/../../../../instances/synthetic/deviations/ambiguity/mild/S=20/A=20/rep=5
+amb=mild.amb
+homotopy_vi_iterations=894
+homotopy_vi_s=1.03179

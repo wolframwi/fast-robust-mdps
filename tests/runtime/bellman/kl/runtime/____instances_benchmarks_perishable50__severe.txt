@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=severe.amb
+fast_mean_us=141.061
+fast_median_us=140.612
+fast_iqr_us=11.827
+mosek_mean_us=7829.58
+mosek_median_us=7825.97
+mosek_iqr_us=3031.43

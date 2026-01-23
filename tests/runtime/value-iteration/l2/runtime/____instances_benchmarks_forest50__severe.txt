@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/forest50
+amb=severe.amb
+fast_vi_iterations=-1
+fast_vi_s=0
+fast_failed=1
+mosek_vi_iterations=824
+mosek_vi_s=31.0032
+mosek_failed=0
+cplex_vi_iterations=825
+cplex_vi_s=54.1806
+cplex_failed=0
+gurobi_vi_iterations=831
+gurobi_vi_s=57.7636
+gurobi_failed=0

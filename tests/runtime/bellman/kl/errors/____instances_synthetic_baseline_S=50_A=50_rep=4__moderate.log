@@ -1,0 +1,6 @@
+instance=../../../../instances/synthetic/baseline/S=50/A=50/rep=4
+amb=moderate.amb
+exception s=6 a=17 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=6 a=43 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+avg_abs_fast_mosek=3.04664e-05
+max_abs_fast_mosek=7.46559e-05

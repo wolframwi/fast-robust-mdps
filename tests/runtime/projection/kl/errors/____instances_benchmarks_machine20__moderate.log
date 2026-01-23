@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/machine20
+amb=moderate.amb
+avg_linf_fast_mosek=2.79921e-06
+avg_l1_fast_mosek=5.60408e-06
+avg_cons_fast_mosek=0
+avg_obj_fast_mosek=5.70599e-09
+max_linf_fast_mosek=2.8066e-06
+max_l1_fast_mosek=5.61917e-06
+max_cons_fast_mosek=0
+max_obj_fast_mosek=6.321e-09

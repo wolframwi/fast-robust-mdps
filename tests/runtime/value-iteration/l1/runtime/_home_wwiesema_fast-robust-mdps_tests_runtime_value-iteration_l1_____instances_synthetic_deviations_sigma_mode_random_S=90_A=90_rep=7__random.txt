@@ -1,0 +1,4 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/l1/../../../../instances/synthetic/deviations/sigma_mode/random/S=90/A=90/rep=7
+amb=random.amb
+fast_vi_iterations=878
+fast_vi_s=35.4205

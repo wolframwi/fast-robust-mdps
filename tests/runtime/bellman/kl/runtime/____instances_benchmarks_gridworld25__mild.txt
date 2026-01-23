@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/gridworld25
+amb=mild.amb
+fast_mean_us=123.987
+fast_median_us=99.881
+fast_iqr_us=75.323
+mosek_mean_us=3985.07
+mosek_median_us=3998.83
+mosek_iqr_us=1439.79

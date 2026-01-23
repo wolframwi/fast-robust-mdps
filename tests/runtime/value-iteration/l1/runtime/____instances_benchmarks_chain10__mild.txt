@@ -1,0 +1,16 @@
+instance=../../../../instances/benchmarks/chain10
+amb=mild.amb
+fast_vi_iterations=876
+cplex_vi_iterations=876
+gurobi_vi_iterations=876
+mosek_vi_iterations=876
+fast_vi_s=0.0427289
+cplex_vi_s=1.47412
+gurobi_vi_s=6.68089
+mosek_vi_s=5.12192
+vi_infty_diff_fast_cplex=3.30153e-05
+vi_infty_diff_fast_gurobi=3.30153e-05
+vi_infty_diff_fast_mosek=3.30153e-05
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

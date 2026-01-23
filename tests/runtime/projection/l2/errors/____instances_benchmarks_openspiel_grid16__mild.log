@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=mild.amb
+avg_obj_fast_mosek=2.48943e-08
+max_obj_fast_mosek=1.37061e-07
+avg_obj_fast_gurobi=3.68561e-09
+max_obj_fast_gurobi=1.26104e-08
+avg_obj_fast_cplex=1.68071e-09
+max_obj_fast_cplex=6.30228e-09

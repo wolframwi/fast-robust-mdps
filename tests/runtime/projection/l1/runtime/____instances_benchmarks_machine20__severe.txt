@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/machine20
+amb=severe.amb
+fast_mean_us=0.2053
+fast_median_us=0.201
+fast_iqr_us=0.02
+cplex_mean_us=160.603
+cplex_median_us=159.28
+cplex_iqr_us=3.115
+gurobi_mean_us=823.473
+gurobi_median_us=830.05
+gurobi_iqr_us=65.028
+mosek_mean_us=224.787
+mosek_median_us=222.916
+mosek_iqr_us=1.962

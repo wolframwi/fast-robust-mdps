@@ -1,0 +1,16 @@
+instance=../../../../instances/benchmarks/gridworld25
+amb=severe.amb
+fast_vi_iterations=17
+cplex_vi_iterations=17
+gurobi_vi_iterations=17
+mosek_vi_iterations=17
+fast_vi_s=0.00595721
+cplex_vi_s=0.16494
+gurobi_vi_s=0.47872
+mosek_vi_s=0.595299
+vi_infty_diff_fast_cplex=1.1813e-05
+vi_infty_diff_fast_gurobi=1.1813e-05
+vi_infty_diff_fast_mosek=1.1813e-05
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

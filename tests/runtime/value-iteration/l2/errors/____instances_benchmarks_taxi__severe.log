@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/taxi
+amb=severe.amb
+exception value_iteration fast value_iteration: maximum iterations reached
+exception value_iteration cplex value_iteration: maximum iterations reached
+exception value_iteration gurobi Gurobi failed to solve L2 Bellman

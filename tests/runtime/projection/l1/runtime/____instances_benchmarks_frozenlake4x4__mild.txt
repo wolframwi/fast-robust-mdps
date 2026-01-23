@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/frozenlake4x4
+amb=mild.amb
+fast_mean_us=3.2012
+fast_median_us=3.345
+fast_iqr_us=0.431
+cplex_mean_us=390.392
+cplex_median_us=393.673
+cplex_iqr_us=81.392
+gurobi_mean_us=1277.21
+gurobi_median_us=1274.08
+gurobi_iqr_us=123.646
+mosek_mean_us=621.2
+mosek_median_us=617.571
+mosek_iqr_us=96.606

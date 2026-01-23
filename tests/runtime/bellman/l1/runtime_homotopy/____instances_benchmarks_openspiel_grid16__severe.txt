@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=severe.amb
+homotopy_mean_us=1.24666
+homotopy_median_us=1.212
+homotopy_iqr_us=0.08

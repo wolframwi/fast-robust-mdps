@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/chain10
+amb=moderate.amb
+fast_mean_us=0.8748
+fast_median_us=0.871
+fast_iqr_us=0.02
+mosek_mean_us=523.462
+mosek_median_us=521.455
+mosek_iqr_us=7.101

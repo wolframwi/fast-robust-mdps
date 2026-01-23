@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/riverswim6
+amb=severe.amb
+avg_abs_fast_mosek=1.67188e-06
+max_abs_fast_mosek=2.37291e-06
+avg_abs_fast_cplex=9.15456e-05
+max_abs_fast_cplex=0.000188418
+avg_abs_fast_gurobi=8.85275e-06
+max_abs_fast_gurobi=1.79969e-05

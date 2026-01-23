@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/forest50
+amb=moderate.amb
+avg_abs_fast_mosek=5.32539e-06
+max_abs_fast_mosek=2.57962e-05

@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/machine20
+amb=severe.amb
+homotopy_mean_us=0.43294
+homotopy_median_us=0.43
+homotopy_iqr_us=0.011

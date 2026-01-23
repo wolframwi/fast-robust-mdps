@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=severe.amb
+avg_abs_fast_mosek=6.61326e-07
+max_abs_fast_mosek=1.25213e-06
+avg_abs_fast_cplex=1.84779e-06
+max_abs_fast_cplex=1.23821e-05
+avg_abs_fast_gurobi=4.9106e-07
+max_abs_fast_gurobi=2.05147e-06

@@ -1,0 +1,5 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/burg/../../../../instances/synthetic/baseline/S=50/A=50/rep=7
+amb=moderate.amb
+exception value_iteration mosek MSK_RES_ERR_MISSING_LICENSE_FILE(1008): License cannot be located. The default search path is ':/home/wwiesema/mosek/mosek.lic:'.
+
+exception value_iteration mosek MOSEK failed to solve Burg Bellman (sol=1, prob=0)

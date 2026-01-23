@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=moderate.amb
+fast_mean_us=445.83
+fast_median_us=435.787
+fast_iqr_us=378.241
+mosek_mean_us=8816.84
+mosek_median_us=9159.38
+mosek_iqr_us=2637.48

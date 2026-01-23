@@ -1,0 +1,7 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/burg/../../../../instances/synthetic/deviations/stochasticity/highly_stochastic/S=20/A=10/rep=7
+amb=highly_stochastic.amb
+fast_vi_iterations=873
+fast_vi_s=0.77749
+mosek_vi_iterations=872
+mosek_vi_s=82.5934
+mosek_failed=0

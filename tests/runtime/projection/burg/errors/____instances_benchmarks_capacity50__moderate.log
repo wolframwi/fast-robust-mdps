@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=moderate.amb
+avg_linf_fast_mosek=1.6988e-05
+avg_l1_fast_mosek=4.52721e-05
+avg_cons_fast_mosek=1.45748e-05
+avg_obj_fast_mosek=2.2313e-08
+max_linf_fast_mosek=0.000118224
+max_l1_fast_mosek=0.000266493
+max_cons_fast_mosek=3.69849e-05
+max_obj_fast_mosek=8.68346e-08

@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/frozenlake8x8
+amb=mild.amb
+fast_vi_iterations=349
+mosek_vi_iterations=349
+fast_vi_s=6.66776
+mosek_vi_s=199.052
+vi_infty_diff_fast_mosek=1.78041e-05
+mosek_failed=0

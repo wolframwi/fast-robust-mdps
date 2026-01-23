@@ -1,0 +1,16 @@
+instance=../../../../instances/benchmarks/taxi
+amb=moderate.amb
+fast_vi_iterations=1044
+cplex_vi_iterations=1042
+gurobi_vi_iterations=1042
+mosek_vi_iterations=1042
+fast_vi_s=188.347
+cplex_vi_s=2759.83
+gurobi_vi_s=3762.46
+mosek_vi_s=13696.5
+vi_infty_diff_fast_cplex=0.000231958
+vi_infty_diff_fast_gurobi=0.000231958
+vi_infty_diff_fast_mosek=0.000231958
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

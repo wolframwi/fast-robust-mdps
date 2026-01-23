@@ -1,0 +1,10 @@
+instance=../../../../instances/synthetic/baseline/S=20/A=10/rep=9
+amb=moderate.amb
+avg_linf_fast_mosek=9.31772e-06
+avg_l1_fast_mosek=2.69128e-05
+avg_cons_fast_mosek=6.47448e-07
+avg_obj_fast_mosek=2.32185e-08
+max_linf_fast_mosek=5.29269e-05
+max_l1_fast_mosek=0.000137164
+max_cons_fast_mosek=1.61926e-06
+max_obj_fast_mosek=1.26395e-07

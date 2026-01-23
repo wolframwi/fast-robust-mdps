@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/taxi
+amb=severe.amb
+avg_obj_fast_mosek=2.9976e-16
+max_obj_fast_mosek=1.55431e-15
+avg_obj_fast_gurobi=3.16414e-16
+max_obj_fast_gurobi=1.55431e-15
+avg_obj_fast_cplex=3.26406e-16
+max_obj_fast_cplex=1.55431e-15

@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/gridworld25
+amb=moderate.amb
+avg_linf_fast_mosek=4.75349e-06
+avg_l1_fast_mosek=1.85955e-05
+avg_cons_fast_mosek=5.18112e-07
+avg_obj_fast_mosek=2.83671e-08
+max_linf_fast_mosek=1.44884e-05
+max_l1_fast_mosek=6.72027e-05
+max_cons_fast_mosek=1.22301e-06
+max_obj_fast_mosek=1.52454e-07

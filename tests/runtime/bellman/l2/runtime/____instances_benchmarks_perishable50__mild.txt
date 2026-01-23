@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=mild.amb
+fast_mean_us=28.7773
+fast_median_us=29.094
+fast_iqr_us=1.123
+cplex_mean_us=3994.68
+cplex_median_us=3593.84
+cplex_iqr_us=1434.62
+gurobi_mean_us=3787.92
+gurobi_median_us=3775.53
+gurobi_iqr_us=468.866
+mosek_mean_us=1660.79
+mosek_median_us=1647.81
+mosek_iqr_us=61.353

@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/riverswim20
+amb=severe.amb
+fast_mean_us=31.6496
+fast_median_us=30.697
+fast_iqr_us=1.912
+mosek_mean_us=1728.36
+mosek_median_us=1486.39
+mosek_iqr_us=144.017

@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=moderate.amb
+avg_abs_fast_mosek=0.00137393
+max_abs_fast_mosek=0.00330817

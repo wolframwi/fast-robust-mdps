@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/chain10
+amb=mild.amb
+homotopy_mean_us=0.76794
+homotopy_median_us=0.761
+homotopy_iqr_us=0.03

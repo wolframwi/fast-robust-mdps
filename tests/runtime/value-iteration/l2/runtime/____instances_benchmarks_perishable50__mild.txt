@@ -1,0 +1,16 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=mild.amb
+fast_vi_iterations=1000
+cplex_vi_iterations=998
+gurobi_vi_iterations=1010
+mosek_vi_iterations=999
+fast_vi_s=1.72287
+cplex_vi_s=174.503
+gurobi_vi_s=138.622
+mosek_vi_s=72.6258
+vi_infty_diff_fast_cplex=0.00150846
+vi_infty_diff_fast_gurobi=0.00430737
+vi_infty_diff_fast_mosek=0.00016296
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

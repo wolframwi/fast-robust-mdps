@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=severe.amb
+avg_abs_fast_mosek=2.24134e-06
+max_abs_fast_mosek=1.71414e-05

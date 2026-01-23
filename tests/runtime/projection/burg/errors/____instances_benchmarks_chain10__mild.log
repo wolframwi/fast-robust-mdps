@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/chain10
+amb=mild.amb
+avg_linf_fast_mosek=1.06215e-05
+avg_l1_fast_mosek=2.6851e-05
+avg_cons_fast_mosek=7.25056e-07
+avg_obj_fast_mosek=2.62423e-08
+max_linf_fast_mosek=5.37271e-05
+max_l1_fast_mosek=0.000107452
+max_cons_fast_mosek=2.09544e-06
+max_obj_fast_mosek=1.65883e-07

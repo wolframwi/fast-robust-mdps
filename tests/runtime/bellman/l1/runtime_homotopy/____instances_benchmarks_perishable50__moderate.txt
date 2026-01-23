@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=moderate.amb
+homotopy_mean_us=17.1405
+homotopy_median_us=18.227
+homotopy_iqr_us=0.331

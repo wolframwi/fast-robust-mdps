@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=moderate.amb
+avg_abs_fast_mosek=9.54116e-05
+max_abs_fast_mosek=0.000307684

@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/machine20
+amb=severe.amb
+homotopy_vi_iterations=826
+homotopy_vi_s=0.00863576

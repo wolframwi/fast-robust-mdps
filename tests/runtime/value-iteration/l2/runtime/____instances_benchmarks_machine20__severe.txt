@@ -1,0 +1,16 @@
+instance=../../../../instances/benchmarks/machine20
+amb=severe.amb
+fast_vi_iterations=840
+cplex_vi_iterations=839
+gurobi_vi_iterations=860
+mosek_vi_iterations=838
+fast_vi_s=0.154349
+cplex_vi_s=10.5281
+gurobi_vi_s=16.4824
+mosek_vi_s=9.33345
+vi_infty_diff_fast_cplex=0.000128951
+vi_infty_diff_fast_gurobi=0.00133036
+vi_infty_diff_fast_mosek=3.84718e-05
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

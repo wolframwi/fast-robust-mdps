@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/cliffwalking
+amb=severe.amb
+avg_linf_fast_mosek=2.12511e-07
+avg_l1_fast_mosek=4.19736e-07
+avg_cons_fast_mosek=0
+avg_obj_fast_mosek=5.6379e-09
+max_linf_fast_mosek=5.61664e-07
+max_l1_fast_mosek=1.13006e-06
+max_cons_fast_mosek=0
+max_obj_fast_mosek=6.73197e-09

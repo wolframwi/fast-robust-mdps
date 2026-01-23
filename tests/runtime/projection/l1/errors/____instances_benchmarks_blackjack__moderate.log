@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=moderate.amb
+avg_obj_fast_mosek=1.41068e-11
+max_obj_fast_mosek=1.00012e-10
+avg_obj_fast_gurobi=1.41068e-11
+max_obj_fast_gurobi=1.00012e-10
+avg_obj_fast_cplex=1.41068e-11
+max_obj_fast_cplex=1.00012e-10

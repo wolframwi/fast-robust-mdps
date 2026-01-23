@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/riverswim20
+amb=severe.amb
+avg_linf_fast_mosek=1.05408e-05
+avg_l1_fast_mosek=2.59565e-05
+avg_cons_fast_mosek=4.11983e-07
+avg_obj_fast_mosek=2.23169e-08
+max_linf_fast_mosek=4.0459e-05
+max_l1_fast_mosek=8.14275e-05
+max_cons_fast_mosek=1.45661e-06
+max_obj_fast_mosek=1.10134e-07

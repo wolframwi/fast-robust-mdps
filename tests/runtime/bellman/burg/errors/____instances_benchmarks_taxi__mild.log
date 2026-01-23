@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/taxi
+amb=mild.amb
+avg_abs_fast_mosek=0.00142033
+max_abs_fast_mosek=0.00931434

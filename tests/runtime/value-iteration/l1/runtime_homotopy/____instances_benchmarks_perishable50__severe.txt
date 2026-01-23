@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=severe.amb
+homotopy_vi_iterations=1003
+homotopy_vi_s=1.02923

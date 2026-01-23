@@ -1,0 +1,5 @@
+instance=../../../../instances/synthetic/baseline/S=40/A=40/rep=10
+amb=moderate.amb
+homotopy_mean_us=577.645
+homotopy_median_us=576.789
+homotopy_iqr_us=6.56

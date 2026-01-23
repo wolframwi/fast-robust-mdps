@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/chain10
+amb=moderate.amb
+homotopy_vi_iterations=844
+homotopy_vi_s=0.00578588

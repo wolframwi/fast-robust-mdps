@@ -1,0 +1,3 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=mild.amb
+exception value_iteration cplex value_iteration: maximum iterations reached

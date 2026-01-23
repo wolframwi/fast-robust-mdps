@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/taxi
+amb=severe.amb
+homotopy_mean_us=20.8701
+homotopy_median_us=20.631
+homotopy_iqr_us=0.631

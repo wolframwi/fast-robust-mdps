@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=severe.amb
+fast_vi_iterations=549
+mosek_vi_iterations=550
+fast_vi_s=63.6091
+mosek_vi_s=3888.77
+vi_infty_diff_fast_mosek=0.000142988
+mosek_failed=0

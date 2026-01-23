@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=moderate.amb
+homotopy_vi_iterations=31
+homotopy_vi_s=0.000589588

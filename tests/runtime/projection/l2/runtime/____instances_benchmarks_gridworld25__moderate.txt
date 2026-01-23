@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/gridworld25
+amb=moderate.amb
+fast_mean_us=2.27271
+fast_median_us=2.313
+fast_iqr_us=0.13
+cplex_mean_us=202.783
+cplex_median_us=199.36
+cplex_iqr_us=12.208
+gurobi_mean_us=801.991
+gurobi_median_us=794.527
+gurobi_iqr_us=30.636
+mosek_mean_us=458.292
+mosek_median_us=456.158
+mosek_iqr_us=20.541

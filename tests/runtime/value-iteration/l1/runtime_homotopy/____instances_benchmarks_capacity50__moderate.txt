@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=moderate.amb
+homotopy_vi_iterations=47
+homotopy_vi_s=0.0514539

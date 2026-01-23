@@ -1,0 +1,8 @@
+instance=../../../../instances/synthetic/baseline/S=80/A=10/rep=5
+amb=moderate.amb
+avg_abs_fast_mosek=6.73997e-06
+max_abs_fast_mosek=1.2822e-05
+avg_abs_fast_cplex=0.00350178
+max_abs_fast_cplex=0.00724568
+avg_abs_fast_gurobi=1.40727e-05
+max_abs_fast_gurobi=0.000115879

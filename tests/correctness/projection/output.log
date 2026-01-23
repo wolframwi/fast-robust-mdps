@@ -1,0 +1,76 @@
+Processing ../../../instances/synthetic/baseline/S=50/A=50/rep=3 [moderate.amb]
+  L1: starting
+    run 1/10
+    run 2/10
+    run 3/10
+    run 4/10
+    run 5/10
+    run 6/10
+    run 7/10
+    run 8/10
+    run 9/10
+    run 10/10
+../../../instances/synthetic/baseline/S=50/A=50/rep=3 [moderate.amb] L1:
+  avg linf: 3.77476e-16, max linf: 4.44089e-16
+  avg l1:   5.06192e-16, max l1:   6.245e-16
+  avg cons: 1.49214e-14, max cons: 2.13163e-14
+  avg obj:  5.32907e-16, max obj:  6.66134e-16
+  rows used: 25000, rows failed: 0
+  L2: starting
+    run 1/10
+    run 2/10
+    run 3/10
+    run 4/10
+    run 5/10
+    run 6/10
+    run 7/10
+    run 8/10
+    run 9/10
+    run 10/10
+../../../instances/synthetic/baseline/S=50/A=50/rep=3 [moderate.amb] L2:
+  avg linf: 4.91882e-05, max linf: 5.31314e-05
+  avg l1:   0.000112541, max l1:   0.000158936
+  avg cons: 9.04536e-07, max cons: 9.28919e-07
+  avg obj:  2.39711e-08, max obj:  3.36723e-08
+  rows used: 25000, rows failed: 0
+  KL: starting
+    run 1/10
+    run 2/10
+    run 3/10
+    run 4/10
+    run 5/10
+    run 6/10
+    run 7/10
+    run 8/10
+    run 9/10
+    run 10/10
+../../../instances/synthetic/baseline/S=50/A=50/rep=3 [moderate.amb] KL:
+  avg linf: 0.00848138, max linf: 0.0290832
+  avg l1:   0.0169695, max l1:   0.0581666
+  avg cons: 1.69532e-05, max cons: 0.000155185
+  avg obj:  0.00260326, max obj:  0.0117598
+  rows used: 24958, rows failed: 42
+  BURG: starting
+    run 1/10
+    run 2/10
+    run 3/10
+    run 4/10
+    run 5/10
+    run 6/10
+    run 7/10
+    run 8/10
+    run 9/10
+    run 10/10
+../../../instances/synthetic/baseline/S=50/A=50/rep=3 [moderate.amb] BURG:
+  avg linf: 0.486846, max linf: 0.487354
+  avg l1:   0.973692, max l1:   0.974707
+  avg cons: 17.4506, max cons: 19.4644
+  avg obj:  0.682257, max obj:  0.684659
+  rows used: 25000, rows failed: 0
+Processing ../../../instances/synthetic/baseline/S=50/A=50/rep=7 [moderate.amb]
+  L1: starting
+    run 1/10
+    run 2/10
+    run 3/10
+    run 4/10
+    run 5/10

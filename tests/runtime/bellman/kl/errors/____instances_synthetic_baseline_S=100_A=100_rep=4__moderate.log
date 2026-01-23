@@ -1,0 +1,25 @@
+instance=../../../../instances/synthetic/baseline/S=100/A=100/rep=4
+amb=moderate.amb
+exception s=73 a=33 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=95 a=56 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=94 a=61 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=22 a=68 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=24 a=97 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=98 a=19 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=95 a=53 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=78 a=8 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=7 a=5 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=22 a=62 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=94 a=93 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=4 a=20 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=61 a=62 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=22 a=68 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=50 a=6 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=61 a=70 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=98 a=80 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=44 a=0 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=18 a=18 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=1 a=95 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+exception s=73 a=6 mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)
+avg_abs_fast_mosek=5.93829e-05
+max_abs_fast_mosek=0.000132558

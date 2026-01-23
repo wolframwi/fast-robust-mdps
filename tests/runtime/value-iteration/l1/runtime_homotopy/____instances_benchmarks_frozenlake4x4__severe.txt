@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/frozenlake4x4
+amb=severe.amb
+homotopy_vi_iterations=36
+homotopy_vi_s=0.000981999

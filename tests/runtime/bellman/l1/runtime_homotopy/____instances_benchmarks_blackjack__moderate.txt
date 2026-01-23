@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=moderate.amb
+homotopy_mean_us=74.1193
+homotopy_median_us=83.916
+homotopy_iqr_us=1.233

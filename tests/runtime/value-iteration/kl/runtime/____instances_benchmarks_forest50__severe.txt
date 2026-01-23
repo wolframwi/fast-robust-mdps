@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/forest50
+amb=severe.amb
+fast_vi_iterations=836
+mosek_vi_iterations=836
+fast_vi_s=4.22455
+mosek_vi_s=110.765
+vi_infty_diff_fast_mosek=1.83502e-05
+mosek_failed=0

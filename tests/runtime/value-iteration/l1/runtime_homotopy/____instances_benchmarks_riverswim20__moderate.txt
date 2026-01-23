@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/riverswim20
+amb=moderate.amb
+homotopy_vi_iterations=294
+homotopy_vi_s=0.00575808

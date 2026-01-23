@@ -1,0 +1,575 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 3K of event 'cycles:P'
+# Event count (approx.): 5189818612
+#
+# Children      Self  Command       Shared Object         Symbol                                                                                                                                                                                                                                                                                                                                                                        
+# ........  ........  ............  ....................  ..............................................................................................................................................................................................................................................................................................................................................................................
+#
+    95.30%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a2a1c9
+            |
+            ---0x71bde2a2a1c9
+               |          
+                --94.36%--main
+                          |          
+                           --92.85%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+                                     |          
+                                     |--73.17%--operator() (inlined)
+                                     |          
+                                     |--7.98%--burg_divergence (inlined)
+                                     |          |          
+                                     |           --0.86%--log
+                                     |          
+                                      --6.04%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+
+    95.23%     0.00%  burg_profile  burg_profile          [.] _start
+            |
+            ---_start
+               __libc_start_main
+               0x71bde2a2a1c9
+               |          
+                --94.30%--main
+                          |          
+                           --92.85%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+                                     |          
+                                     |--73.17%--operator() (inlined)
+                                     |          
+                                     |--7.98%--burg_divergence (inlined)
+                                     |          |          
+                                     |           --0.86%--log
+                                     |          
+                                      --6.04%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+
+    95.23%     0.00%  burg_profile  libc.so.6             [.] __libc_start_main
+            |
+            ---__libc_start_main
+               0x71bde2a2a1c9
+               |          
+                --94.30%--main
+                          |          
+                           --92.85%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+                                     |          
+                                     |--73.17%--operator() (inlined)
+                                     |          
+                                     |--7.98%--burg_divergence (inlined)
+                                     |          |          
+                                     |           --0.86%--log
+                                     |          
+                                      --6.04%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+
+    94.50%     0.38%  burg_profile  burg_profile          [.] main
+            |          
+             --94.12%--main
+                       |          
+                        --92.87%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+                                  |          
+                                  |--73.17%--operator() (inlined)
+                                  |          
+                                  |--7.98%--burg_divergence (inlined)
+                                  |          |          
+                                  |           --0.86%--log
+                                  |          
+                                   --6.04%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+
+    94.04%    87.07%  burg_profile  burg_profile          [.] fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+            |          
+            |--86.08%--_start
+            |          __libc_start_main
+            |          0x71bde2a2a1c9
+            |          |          
+            |           --85.87%--main
+            |                     |          
+            |                     |--80.33%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+            |                     |          |          
+            |                     |          |--68.29%--operator() (inlined)
+            |                     |          |          
+            |                     |          |--5.66%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+            |                     |          |          
+            |                     |           --1.37%--burg_divergence (inlined)
+            |                     |          
+            |                      --5.54%--0x56059c7191f8
+            |                                |          
+            |                                 --4.42%--0x56059c71905d
+            |          
+            |--6.87%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+            |          |          
+            |           --6.24%--burg_divergence (inlined)
+            |                     |          
+            |                      --0.81%--log
+            |          
+             --0.74%--0xffffffffffffffff
+                       |          
+                        --0.63%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+
+    73.50%     0.00%  burg_profile  burg_profile          [.] operator() (inlined)
+            |
+            ---operator() (inlined)
+
+     8.09%     0.00%  burg_profile  burg_profile          [.] burg_divergence (inlined)
+            |
+            ---burg_divergence (inlined)
+               |          
+                --0.86%--log
+
+     2.01%     0.00%  burg_profile  [unknown]             [k] 0xffffffffffffffff
+            |
+            ---0xffffffffffffffff
+               |          
+                --0.68%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+
+     1.95%     0.00%  burg_profile  [stack]               [.] 0x00007ffd5eeb67cf
+            |
+            ---0x7ffd5eeb67cf
+
+     0.99%     0.97%  burg_profile  libm.so.6             [.] log
+            |          
+             --0.89%--_start
+                       __libc_start_main
+                       0x71bde2a2a1c9
+                       main
+                       |          
+                        --0.84%--fast_burg::solve_projection_problem(fast_burg::ProjectionInput const&)
+                                  burg_divergence (inlined)
+                                  log
+
+     0.53%     0.53%  burg_profile  burg_profile          [.] log@plt
+     0.50%     0.50%  burg_profile  libm.so.6             [.] 0x0000000000079df0
+     0.50%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90df0
+            |
+            ---0x71bde2d90df0
+
+     0.46%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8e00f4b
+     0.46%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c4853b
+     0.43%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7aac54e
+     0.43%     0.43%  burg_profile  libc.so.6             [.] malloc
+     0.38%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7c0ca56
+     0.38%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7c0bc2f
+     0.38%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7c23a78
+     0.38%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7c23558
+     0.38%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7c0aab9
+     0.38%     0.00%  burg_profile  burg_profile          [.] mdp::load_mdp_amb(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+     0.38%     0.00%  burg_profile  burg_profile          [.] read_vector (inlined)
+     0.38%     0.00%  burg_profile  burg_profile          [.] read_or_throw<double> (inlined)
+     0.38%     0.00%  burg_profile  burg_profile          [.] std::istream::operator>>(double&) (inlined)
+     0.38%     0.05%  burg_profile  libstdc++.so.6.0.33   [.] std::istream& std::istream::_M_extract<double>(double&)
+     0.38%     0.35%  burg_profile  libc.so.6             [.] cfree
+     0.36%     0.02%  burg_profile  libstdc++.so.6.0.33   [.] std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::do_get(std::istreambuf_iterator<char, std::char_traits<char> >, std::istreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, std::_Ios_Iostate&, double&) const
+     0.35%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::vector(unsigned long, double const&, std::allocator<double> const&) (inlined)
+     0.31%     0.31%  burg_profile  libm.so.6             [.] 0x0000000000079da4
+     0.31%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90da4
+     0.31%     0.31%  burg_profile  libm.so.6             [.] 0x0000000000079de9
+     0.31%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90de9
+     0.31%     0.00%  burg_profile  anon                  [.] 0x000071bde307b9af
+     0.30%     0.30%  burg_profile  libm.so.6             [.] 0x0000000000079ddc
+     0.30%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90ddc
+     0.30%     0.00%  burg_profile  burg_profile          [.] double const& std::min<double>(double const&, double const&) (inlined)
+     0.27%     0.27%  burg_profile  libm.so.6             [.] 0x0000000000079de6
+     0.27%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90de6
+     0.26%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b65458
+     0.26%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b7ae6d
+     0.26%     0.26%  burg_profile  libm.so.6             [.] 0x0000000000079dd9
+     0.26%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dd9
+     0.26%     0.26%  burg_profile  libm.so.6             [.] __log_finite@plt
+     0.23%     0.23%  burg_profile  libm.so.6             [.] 0x0000000000079e0e
+     0.23%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e0e
+     0.23%     0.23%  burg_profile  libm.so.6             [.] 0x0000000000079df4
+     0.23%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90df4
+     0.23%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (inlined)
+     0.23%     0.23%  burg_profile  libm.so.6             [.] 0x0000000000079e05
+     0.23%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e05
+     0.20%     0.20%  burg_profile  libm.so.6             [.] 0x0000000000079ded
+     0.20%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90ded
+     0.20%     0.20%  burg_profile  libm.so.6             [.] 0x0000000000079e2b
+     0.20%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e2b
+     0.20%     0.20%  burg_profile  libm.so.6             [.] 0x0000000000079dca
+     0.20%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dca
+     0.18%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b7aa26
+     0.18%     0.18%  burg_profile  libm.so.6             [.] 0x0000000000079d73
+     0.18%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d73
+     0.18%     0.18%  burg_profile  libm.so.6             [.] 0x0000000000079db7
+     0.18%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90db7
+     0.18%     0.18%  burg_profile  libm.so.6             [.] 0x0000000000079dbf
+     0.18%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dbf
+     0.18%     0.18%  burg_profile  libm.so.6             [.] 0x0000000000079d77
+     0.18%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d77
+     0.18%     0.18%  burg_profile  libm.so.6             [.] 0x0000000000079e1e
+     0.18%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e1e
+     0.18%     0.18%  burg_profile  libm.so.6             [.] 0x0000000000079dd1
+     0.18%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dd1
+     0.18%     0.00%  burg_profile  burg_profile          [.] fast_burg::ProjectionResult::ProjectionResult(fast_burg::ProjectionResult&&) (inlined)
+     0.18%     0.18%  burg_profile  libm.so.6             [.] 0x0000000000079dff
+     0.18%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dff
+     0.18%     0.18%  burg_profile  libm.so.6             [.] 0x0000000000079d99
+     0.18%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d99
+     0.15%     0.15%  burg_profile  libm.so.6             [.] 0x0000000000079daf
+     0.15%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90daf
+     0.15%     0.15%  burg_profile  libm.so.6             [.] 0x0000000000079df9
+     0.15%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90df9
+     0.15%     0.15%  burg_profile  libstdc++.so.6.0.33   [.] operator delete(void*)@plt
+     0.15%     0.15%  burg_profile  libm.so.6             [.] 0x0000000000079d63
+     0.15%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d63
+     0.15%     0.15%  burg_profile  libm.so.6             [.] 0x0000000000079e47
+     0.15%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e47
+     0.15%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::~vector() (inlined)
+     0.15%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::~_Vector_base() (inlined)
+     0.15%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_M_deallocate(double*, unsigned long) (inlined)
+     0.15%     0.00%  burg_profile  burg_profile          [.] std::allocator_traits<std::allocator<double> >::deallocate(std::allocator<double>&, double*, unsigned long) (inlined)
+     0.15%     0.00%  burg_profile  burg_profile          [.] std::__new_allocator<double>::deallocate(double*, unsigned long) (inlined)
+     0.15%     0.15%  burg_profile  burg_profile          [.] operator delete(void*, unsigned long)@plt
+     0.15%     0.15%  burg_profile  libm.so.6             [.] 0x0000000000079dd5
+     0.15%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dd5
+     0.15%     0.15%  burg_profile  libm.so.6             [.] 0x0000000000079e16
+     0.15%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e16
+     0.15%     0.15%  burg_profile  burg_profile          [.] operator new(unsigned long)@plt
+     0.15%     0.15%  burg_profile  libm.so.6             [.] 0x0000000000079d6d
+     0.15%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d6d
+     0.15%     0.02%  burg_profile  libstdc++.so.6.0.33   [.] void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
+     0.13%     0.13%  burg_profile  libm.so.6             [.] 0x0000000000079e1a
+     0.13%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e1a
+     0.13%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_Vector_impl::_Vector_impl(std::allocator<double> const&) (inlined)
+     0.13%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_Vector_impl_data::_Vector_impl_data() (inlined)
+     0.13%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::_M_fill_initialize(unsigned long, double const&) (inlined)
+     0.13%     0.13%  burg_profile  libm.so.6             [.] 0x0000000000079d5e
+     0.13%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d5e
+     0.13%     0.13%  burg_profile  libm.so.6             [.] 0x0000000000079e3d
+     0.13%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e3d
+     0.12%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> >&&) (inlined)
+     0.12%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_Vector_base(std::_Vector_base<double, std::allocator<double> >&&) (inlined)
+     0.12%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_Vector_impl::_Vector_impl(std::_Vector_base<double, std::allocator<double> >::_Vector_impl&&) (inlined)
+     0.12%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_Vector_impl_data::_Vector_impl_data(std::_Vector_base<double, std::allocator<double> >::_Vector_impl_data&&) (inlined)
+     0.12%     0.08%  burg_profile  libstdc++.so.6.0.33   [.] operator new(unsigned long)
+     0.12%     0.12%  burg_profile  libm.so.6             [.] 0x0000000000079dc2
+     0.12%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dc2
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (inlined)
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_M_create_storage(unsigned long) (inlined)
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (inlined)
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::allocator_traits<std::allocator<double> >::allocate(std::allocator<double>&, unsigned long) (inlined)
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::__new_allocator<double>::allocate(unsigned long, void const*) (inlined)
+     0.10%     0.10%  burg_profile  libm.so.6             [.] 0x0000000000079dac
+     0.10%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dac
+     0.10%     0.10%  burg_profile  libm.so.6             [.] 0x0000000000079d83
+     0.10%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d83
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_M_create_storage(unsigned long) (inlined)
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (inlined)
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::allocator_traits<std::allocator<double> >::allocate(std::allocator<double>&, unsigned long) (inlined)
+     0.10%     0.00%  burg_profile  burg_profile          [.] std::__new_allocator<double>::allocate(unsigned long, void const*) (inlined)
+     0.10%     0.10%  burg_profile  libm.so.6             [.] 0x0000000000079dce
+     0.10%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90dce
+     0.10%     0.10%  burg_profile  libm.so.6             [.] 0x0000000000079da0
+     0.10%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90da0
+     0.10%     0.10%  burg_profile  libm.so.6             [.] 0x0000000000079d80
+     0.10%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d80
+     0.08%     0.08%  burg_profile  libstdc++.so.6.0.33   [.] operator delete(void*, unsigned long)
+     0.08%     0.08%  burg_profile  libm.so.6             [.] 0x0000000000079d8f
+     0.08%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d8f
+     0.08%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b690f6
+     0.08%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b653d3
+     0.08%     0.08%  burg_profile  libm.so.6             [.] 0x0000000000079e42
+     0.08%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e42
+     0.08%     0.08%  burg_profile  libstdc++.so.6.0.33   [.] free@plt
+     0.08%     0.08%  burg_profile  libm.so.6             [.] 0x0000000000079d50
+     0.08%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d50
+     0.08%     0.08%  burg_profile  libstdc++.so.6.0.33   [.] operator delete(void*)
+     0.08%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::operator[](unsigned long) const (inlined)
+     0.08%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&) (inlined)
+     0.08%     0.00%  burg_profile  [unknown]             [.] 0x0000000000000031
+     0.08%     0.08%  burg_profile  libstdc++.so.6.0.33   [.] std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_float(std::istreambuf_iterator<char, std::char_traits<char> >, std::istreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, std::_Ios_Iostate&, std::string&) const
+     0.08%     0.08%  burg_profile  libm.so.6             [.] 0x0000000000079e27
+     0.08%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e27
+     0.08%     0.00%  burg_profile  burg_profile          [.] fast_burg::ProjectionInput::~ProjectionInput() (inlined)
+     0.07%     0.07%  burg_profile  libm.so.6             [.] 0x0000000000079e12
+     0.07%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e12
+     0.07%     0.07%  burg_profile  libm.so.6             [.] 0x0000000000079d54
+     0.07%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d54
+     0.07%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4fd0e
+     0.05%     0.05%  burg_profile  libc.so.6             [.] 0x00000000000ab29d
+     0.05%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab29d
+     0.05%     0.00%  burg_profile  burg_profile          [.] double* std::__uninitialized_fill_n_a<double*, unsigned long, double, double>(double*, unsigned long, double const&, std::allocator<double>&) (inlined)
+     0.05%     0.00%  burg_profile  burg_profile          [.] double* std::uninitialized_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) (inlined)
+     0.05%     0.00%  burg_profile  burg_profile          [.] double* std::__uninitialized_fill_n<true>::__uninit_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) (inlined)
+     0.05%     0.00%  burg_profile  burg_profile          [.] double* std::fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) (inlined)
+     0.05%     0.00%  burg_profile  burg_profile          [.] double* std::__fill_n_a<double*, unsigned long, double>(double*, unsigned long, double const&, std::random_access_iterator_tag) (inlined)
+     0.05%     0.00%  burg_profile  burg_profile          [.] void std::__fill_a<double*, double>(double*, double*, double const&) (inlined)
+     0.05%     0.00%  burg_profile  burg_profile          [.] __gnu_cxx::__enable_if<std::__is_scalar<double>::__value, void>::__type std::__fill_a1<double*, double>(double*, double*, double const&) (inlined)
+     0.05%     0.05%  burg_profile  libc.so.6             [.] 0x00000000000ab1c5
+     0.05%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab1c5
+     0.05%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::vector(unsigned long, double const&, std::allocator<double> const&) (inlined)
+     0.05%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b739ab
+     0.05%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e4b
+     0.05%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::size() const (inlined)
+     0.05%     0.05%  burg_profile  libstdc++.so.6.0.33   [.] malloc@plt
+     0.05%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8271e2d
+     0.05%     0.05%  burg_profile  libc.so.6             [.] 0x00000000001a1c36
+     0.05%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1c36
+     0.05%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b5f05d
+     0.05%     0.05%  burg_profile  [unknown]             [k] 0xffffffffb8e0128c
+     0.05%     0.05%  burg_profile  libm.so.6             [.] 0x0000000000079d70
+     0.05%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90d70
+     0.05%     0.00%  burg_profile  [unknown]             [.] 0x0000000000000017
+     0.05%     0.05%  burg_profile  libm.so.6             [.] 0x0000000000079e34
+     0.05%     0.00%  burg_profile  libm.so.6             [.] 0x000071bde2d90e34
+     0.05%     0.05%  burg_profile  libc.so.6             [.] 0x00000000000ab2a6
+     0.05%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab2a6
+     0.05%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::operator[](unsigned long) (inlined)
+     0.05%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b65412
+     0.05%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da5eac
+     0.05%     0.03%  burg_profile  libstdc++.so.6.0.33   [.] std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+     0.04%     0.00%  burg_profile  ld-linux-x86-64.so.2  [.] 0x000071bde317b547
+     0.04%     0.00%  burg_profile  ld-linux-x86-64.so.2  [.] 0x000071bde317c75d
+     0.04%     0.00%  burg_profile  ld-linux-x86-64.so.2  [.] 0x000071bde317af45
+     0.04%     0.04%  burg_profile  libc.so.6             [.] 0x00000000001a12d4
+     0.04%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba12d4
+     0.03%     0.03%  burg_profile  libstdc++.so.6.0.33   [.] std::string::push_back(char)
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7dc43f8
+     0.03%     0.00%  burg_profile  ld-linux-x86-64.so.2  [.] 0x000071bde317e86c
+     0.03%     0.00%  burg_profile  libc.so.6             [.] __libc_early_init
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8e00bc7
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c493d3
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7ad6e19
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e2e74a
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e2e404
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e2dce4
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e28eb0
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e28b57
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7dc485a
+     0.03%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb8e00130
+     0.03%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb8c4313f
+     0.03%     0.00%  burg_profile  burg_profile          [.] fast_burg::ProjectionResult::~ProjectionResult() (inlined)
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab17c
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab17c
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab1d9
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab1d9
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b65a9a
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b6c09f
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b65ac0
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7ba4c94
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7c0c9b1
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c5a34e
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab1f7
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab1f7
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1c3d
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1c3d
+     0.03%     0.03%  burg_profile  burg_profile          [.] memcpy@plt
+     0.03%     0.03%  burg_profile  libm.so.6             [.] 0x0000000000079e4b
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab1ca
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab1ca
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b6c992
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da1ad4
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1c28
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1c28
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b7aa08
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b6911e
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b5f066
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b7aa3c
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7ac8f38
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b7395b
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b6c08b
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b69106
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8271e53
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1bdf
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1bdf
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab1e2
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab1e2
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7ac6c04
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b5f01e
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8271e93
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab178
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab178
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b5f015
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8271eb4
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb8271efa
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab1d2
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab1d2
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1b44
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1b44
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7ac8f41
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7ab77c9
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7c0c9e5
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7a66fc3
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1304
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1304
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1bee
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1bee
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a147f
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba147f
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1bc9
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1bc9
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7da1c04
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b5f037
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb8271e90
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7b690a6
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab184
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab184
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab376
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab376
+     0.03%     0.00%  burg_profile  anon                  [.] 0x000071bde2cb500f
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7ac6a17
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b73960
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000000ab2a1
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab2a1
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1be7
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1be7
+     0.03%     0.03%  burg_profile  [unknown]             [k] 0xffffffffb7e54497
+     0.03%     0.00%  burg_profile  burg_profile          [.] mdp::AmbiguousMDP::~AmbiguousMDP()
+     0.03%     0.00%  burg_profile  burg_profile          [.] mdp::MDP::~MDP() (inlined)
+     0.03%     0.00%  burg_profile  burg_profile          [.] std::vector<double, std::allocator<double> >::~vector() (inlined)
+     0.03%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::~_Vector_base() (inlined)
+     0.03%     0.00%  burg_profile  burg_profile          [.] std::_Vector_base<double, std::allocator<double> >::_M_deallocate(double*, unsigned long) (inlined)
+     0.03%     0.00%  burg_profile  burg_profile          [.] std::allocator_traits<std::allocator<double> >::deallocate(std::allocator<double>&, double*, unsigned long) (inlined)
+     0.03%     0.00%  burg_profile  burg_profile          [.] std::__new_allocator<double>::deallocate(double*, unsigned long) (inlined)
+     0.03%     0.00%  burg_profile  libc.so.6             [.] __munmap
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7a07d2f
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e3783b
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e3770d
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e3759f
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e350b8
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e33fb5
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e3b973
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e3b293
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e75f1a
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7dd6b53
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e59887
+     0.03%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7e5449a
+     0.03%     0.03%  burg_profile  libc.so.6             [.] 0x00000000001a1468
+     0.03%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1468
+     0.02%     0.00%  burg_profile  burg_profile          [.] double* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*, double>(__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*, std::allocator<double>&) (inlined)
+     0.02%     0.00%  burg_profile  burg_profile          [.] double* std::uninitialized_copy<__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*>(__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*) (inlined)
+     0.02%     0.00%  burg_profile  burg_profile          [.] double* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*>(__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*) (inlined)
+     0.02%     0.00%  burg_profile  burg_profile          [.] double* std::copy<__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*>(__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*) (inlined)
+     0.02%     0.00%  burg_profile  burg_profile          [.] double* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*>(__gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double const*, std::vector<double, std::allocator<double> > >, double*) (inlined)
+     0.02%     0.00%  burg_profile  burg_profile          [.] double* std::__copy_move_a1<false, double const*, double*>(double const*, double const*, double*) (inlined)
+     0.02%     0.00%  burg_profile  burg_profile          [.] double* std::__copy_move_a2<false, double const*, double*>(double const*, double const*, double*) (inlined)
+     0.02%     0.00%  burg_profile  burg_profile          [.] double* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<double const, double>(double const*, double const*, double*) (inlined)
+     0.02%     0.02%  burg_profile  libc.so.6             [.] 0x00000000001a1b4d
+     0.02%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1b4d
+     0.02%     0.00%  burg_profile  [unknown]             [.] 0xffffffffffffff5f
+     0.02%     0.02%  burg_profile  libc.so.6             [.] 0x00000000001a1487
+     0.02%     0.00%  burg_profile  [unknown]             [.] 0x000000000000018f
+     0.02%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2ba1487
+     0.02%     0.00%  burg_profile  burg_profile          [.] double const& std::max<double>(double const&, double const&) (inlined)
+     0.02%     0.02%  burg_profile  [unknown]             [k] 0xffffffffb7d9b340
+     0.02%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da1b93
+     0.02%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7a15df3
+     0.02%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7ac6a19
+     0.02%     0.02%  burg_profile  libc.so.6             [.] 0x000000000004e948
+     0.02%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4e948
+     0.02%     0.02%  burg_profile  libstdc++.so.6.0.33   [.] 0x0000000000147bd7
+     0.02%     0.00%  burg_profile  libstdc++.so.6.0.33   [.] 0x000071bde2f47bd7
+     0.02%     0.02%  burg_profile  [unknown]             [k] 0xffffffffb8e00f30
+     0.02%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7aac539
+     0.02%     0.02%  burg_profile  libc.so.6             [.] 0x000000000004e467
+     0.02%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4e467
+     0.02%     0.00%  burg_profile  libstdc++.so.6.0.33   [.] std::string::reserve(unsigned long)
+     0.02%     0.00%  burg_profile  libstdc++.so.6.0.33   [.] std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long)
+     0.02%     0.02%  burg_profile  libc.so.6             [.] 0x00000000000ab2a7
+     0.02%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2aab2a7
+     0.02%     0.02%  burg_profile  libstdc++.so.6.0.33   [.] std::locale::id::_M_id() const@plt
+     0.02%     0.02%  burg_profile  libc.so.6             [.] 0x00000000000595f3
+     0.02%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a595f3
+     0.02%     0.02%  burg_profile  libc.so.6             [.] 0x000000000004dc11
+     0.02%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4dc11
+     0.02%     0.02%  burg_profile  libstdc++.so.6.0.33   [.] std::istream::sentry::sentry(std::istream&, bool)
+     0.02%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4eaf8
+     0.02%     0.02%  burg_profile  libstdc++.so.6.0.33   [.] 0x0000000000147bdf
+     0.02%     0.00%  burg_profile  libstdc++.so.6.0.33   [.] 0x000071bde2f47bdf
+     0.01%     0.01%  burg_profile  libc.so.6             [.] 0x000000000004eb77
+     0.01%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4eb77
+     0.01%     0.01%  burg_profile  [unknown]             [k] 0xffffffffb7e2e78f
+     0.01%     0.00%  burg_profile  ld-linux-x86-64.so.2  [.] 0x000071bde317e788
+     0.01%     0.00%  burg_profile  ld-linux-x86-64.so.2  [.] 0x000071bde316bd4b
+     0.01%     0.00%  burg_profile  libm.so.6             [.] cosf32x
+     0.01%     0.01%  burg_profile  libc.so.6             [.] 0x000000000004e450
+     0.01%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4e450
+     0.01%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4eb88
+     0.01%     0.01%  burg_profile  libc.so.6             [.] 0x000000000004eac6
+     0.01%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4eac6
+     0.01%     0.01%  burg_profile  libc.so.6             [.] 0x000000000004e940
+     0.01%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4e940
+     0.01%     0.01%  burg_profile  libc.so.6             [.] 0x000000000004eafd
+     0.01%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4eafd
+     0.00%     0.00%  burg_profile  libc.so.6             [.] 0x000000000004e3c5
+     0.00%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4e3c5
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb8bac1fb
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7a07627
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7effa47
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7eff6e8
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7efd536
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7efd442
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7efd149
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7efcbb7
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7f9046d
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7efda90
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7efc774
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7e3624b
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb8ba46da
+     0.00%     0.00%  burg_profile  libc.so.6             [.] 0x000000000004dbd7
+     0.00%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4dbd7
+     0.00%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a59747
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7a6c1db
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8e01700
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb8e00130
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb8c4313f
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7a07627
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7effa47
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7eff6e8
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7efd536
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7efd442
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7efd149
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7efcbb7
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7f90392
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7effff0
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7d9bd00
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7dad906
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7d9c673
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7d9bd1c
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c49cc3
+     0.00%     0.00%  burg_profile  libc.so.6             [.] 0x000071bde2a4ea73
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8e00f8b
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c48289
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb81fc2c5
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c49c33
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7dbd44b
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7dbd289
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7dbcfb2
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c49bae
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c51bd3
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c51764
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7b56490
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da7861
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da7648
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da752f
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da714a
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da6dbd
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da4345
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb8e0190e
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8e00fcb
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb8c4846b
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7dad81e
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da8083
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da7c3f
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da7648
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da752f
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da714a
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da6dbd
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da4345
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7a15caf
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7bd9b26
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7a15b5a
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da64b1
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7a15caf
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7ac6c0c
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7da63b5
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7da63b5
+     0.00%     0.00%  burg_profile  [unknown]             [.] 0xffffffffb7ac6c0a
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7bd9b18
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7ac6c0a
+     0.00%     0.00%  burg_profile  [unknown]             [k] 0xffffffffb7ac6c08
+     0.00%     0.00%  perf-exec     [unknown]             [k] 0xffffffffb7ac6c04
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

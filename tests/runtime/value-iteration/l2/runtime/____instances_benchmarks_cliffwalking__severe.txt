@@ -1,0 +1,17 @@
+instance=../../../../instances/benchmarks/cliffwalking
+amb=severe.amb
+fast_vi_iterations=918
+cplex_vi_iterations=934
+gurobi_vi_iterations=-1
+mosek_vi_iterations=918
+fast_vi_s=0.492173
+cplex_vi_s=104.99
+gurobi_vi_s=0
+mosek_vi_s=43.257
+vi_infty_diff_fast_cplex=0.000557372
+vi_infty_diff_fast_gurobi=-1
+vi_infty_diff_fast_mosek=9.58566e-05
+fast_failed=0
+cplex_failed=0
+gurobi_failed=1
+mosek_failed=0

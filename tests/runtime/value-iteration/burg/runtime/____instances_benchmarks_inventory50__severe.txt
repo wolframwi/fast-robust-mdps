@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=severe.amb
+fast_vi_iterations=986
+mosek_vi_iterations=991
+fast_vi_s=4.44702
+mosek_vi_s=282.477
+vi_infty_diff_fast_mosek=0.00078103
+mosek_failed=0

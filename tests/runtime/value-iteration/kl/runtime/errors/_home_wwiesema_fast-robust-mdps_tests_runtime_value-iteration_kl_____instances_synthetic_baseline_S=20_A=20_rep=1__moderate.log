@@ -1,0 +1,4 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/kl/../../../../instances/synthetic/baseline/S=20/A=20/rep=1
+amb=moderate.amb
+exception value_iteration mosek MSK_RES_ERR_MISSING_LICENSE_FILE(1008): License cannot be located. The default search path is ':/home/wwiesema/mosek/mosek.lic:'.
+

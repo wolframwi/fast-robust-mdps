@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/forest50
+amb=moderate.amb
+homotopy_mean_us=1.71634
+homotopy_median_us=1.613
+homotopy_iqr_us=0.08

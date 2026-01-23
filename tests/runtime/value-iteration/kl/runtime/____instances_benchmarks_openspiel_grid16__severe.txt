@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=severe.amb
+fast_vi_iterations=1140
+mosek_vi_iterations=1144
+fast_vi_s=2.18632
+mosek_vi_s=55.9164
+vi_infty_diff_fast_mosek=0.000227508
+mosek_failed=0

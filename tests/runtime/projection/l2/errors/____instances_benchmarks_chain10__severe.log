@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/chain10
+amb=severe.amb
+avg_obj_fast_mosek=1.86208e-08
+max_obj_fast_mosek=1.2554e-07
+avg_obj_fast_gurobi=2.19592e-09
+max_obj_fast_gurobi=1.26792e-08
+avg_obj_fast_cplex=1.86001e-09
+max_obj_fast_cplex=4.35905e-09

@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=moderate.amb
+homotopy_mean_us=17.9977
+homotopy_median_us=18.277
+homotopy_iqr_us=0.35

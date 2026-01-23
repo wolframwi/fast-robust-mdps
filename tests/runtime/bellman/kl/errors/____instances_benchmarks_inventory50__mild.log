@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=mild.amb
+avg_abs_fast_mosek=7.97888e-07
+max_abs_fast_mosek=1.94149e-06

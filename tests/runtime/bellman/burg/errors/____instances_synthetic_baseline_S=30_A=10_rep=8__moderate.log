@@ -1,0 +1,4 @@
+instance=../../../../instances/synthetic/baseline/S=30/A=10/rep=8
+amb=moderate.amb
+avg_abs_fast_mosek=6.59483e-05
+max_abs_fast_mosek=0.000284393

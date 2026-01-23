@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/riverswim20
+amb=moderate.amb
+avg_abs_fast_mosek=1.16846e-06
+max_abs_fast_mosek=4.19354e-06

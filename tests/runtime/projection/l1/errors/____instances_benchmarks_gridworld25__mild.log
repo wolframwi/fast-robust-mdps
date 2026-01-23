@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/gridworld25
+amb=mild.amb
+avg_obj_fast_mosek=1.18794e-16
+max_obj_fast_mosek=3.33067e-16
+avg_obj_fast_gurobi=9.88098e-17
+max_obj_fast_gurobi=2.22045e-16
+avg_obj_fast_cplex=1.03251e-16
+max_obj_fast_cplex=2.22045e-16

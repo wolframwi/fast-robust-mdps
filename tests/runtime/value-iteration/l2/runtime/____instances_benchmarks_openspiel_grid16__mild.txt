@@ -1,0 +1,16 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=mild.amb
+fast_vi_iterations=29
+cplex_vi_iterations=1009427
+gurobi_vi_iterations=746
+mosek_vi_iterations=29
+fast_vi_s=0.00974308
+cplex_vi_s=26473.7
+gurobi_vi_s=23.2423
+mosek_vi_s=0.412401
+vi_infty_diff_fast_cplex=0.0917779
+vi_infty_diff_fast_gurobi=0.0908436
+vi_infty_diff_fast_mosek=0.0930394
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

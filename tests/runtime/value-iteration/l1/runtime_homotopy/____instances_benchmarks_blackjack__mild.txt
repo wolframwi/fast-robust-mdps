@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=mild.amb
+homotopy_vi_iterations=445
+homotopy_vi_s=11.101

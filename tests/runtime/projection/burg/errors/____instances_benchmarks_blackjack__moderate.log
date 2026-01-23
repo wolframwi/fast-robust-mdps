@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=moderate.amb
+avg_linf_fast_mosek=5.53911e-06
+avg_l1_fast_mosek=1.74564e-05
+avg_cons_fast_mosek=5.61393e-07
+avg_obj_fast_mosek=2.74991e-08
+max_linf_fast_mosek=0.000110126
+max_l1_fast_mosek=0.000241607
+max_cons_fast_mosek=5.47558e-06
+max_obj_fast_mosek=3.40144e-07

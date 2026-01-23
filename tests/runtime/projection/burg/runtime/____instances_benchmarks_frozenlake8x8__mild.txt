@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/frozenlake8x8
+amb=mild.amb
+fast_mean_us=2.80632
+fast_median_us=2.744
+fast_iqr_us=0.111
+mosek_mean_us=1696.43
+mosek_median_us=1646.49
+mosek_iqr_us=204.939

@@ -1,0 +1,8 @@
+instance=../../../../instances/synthetic/baseline/S=60/A=60/rep=7
+amb=moderate.amb
+avg_obj_fast_mosek=1.22442e-09
+max_obj_fast_mosek=1.3885e-08
+avg_obj_fast_gurobi=1.19532e-09
+max_obj_fast_gurobi=1.09526e-08
+avg_obj_fast_cplex=1.07738e-09
+max_obj_fast_cplex=9.66515e-09

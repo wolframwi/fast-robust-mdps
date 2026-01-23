@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/machine20
+amb=mild.amb
+avg_abs_fast_mosek=5.63426e-07
+max_abs_fast_mosek=8.48877e-07

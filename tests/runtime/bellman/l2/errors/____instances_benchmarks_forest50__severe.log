@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/forest50
+amb=severe.amb
+avg_abs_fast_mosek=1.38934e-05
+max_abs_fast_mosek=3.56256e-05
+avg_abs_fast_cplex=0.00144694
+max_abs_fast_cplex=0.00282892
+avg_abs_fast_gurobi=5.39782e-05
+max_abs_fast_gurobi=0.000170275

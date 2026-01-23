@@ -1,0 +1,10 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=moderate.amb
+avg_linf_fast_mosek=4.67705e-06
+avg_l1_fast_mosek=1.65277e-05
+avg_cons_fast_mosek=0
+avg_obj_fast_mosek=1.12061e-08
+max_linf_fast_mosek=1.14423e-05
+max_l1_fast_mosek=3.32381e-05
+max_cons_fast_mosek=0
+max_obj_fast_mosek=2.81896e-08

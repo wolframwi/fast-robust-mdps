@@ -1,0 +1,17 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=mild.amb
+fast_vi_iterations=540
+cplex_vi_iterations=552
+gurobi_vi_iterations=542
+mosek_vi_iterations=539
+fast_vi_s=76.2644
+cplex_vi_s=1969.69
+gurobi_vi_s=1698.51
+mosek_vi_s=674.781
+vi_infty_diff_fast_cplex=0.0396946
+vi_infty_diff_fast_gurobi=0.0404007
+vi_infty_diff_fast_mosek=0.0406335
+fast_failed=0
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

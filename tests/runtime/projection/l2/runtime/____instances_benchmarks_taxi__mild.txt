@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/taxi
+amb=mild.amb
+fast_mean_us=29.676
+fast_median_us=30.246
+fast_iqr_us=4.888
+cplex_mean_us=676.168
+cplex_median_us=670.17
+cplex_iqr_us=50.385
+gurobi_mean_us=1504.06
+gurobi_median_us=1500.49
+gurobi_iqr_us=92.398
+mosek_mean_us=1633.06
+mosek_median_us=1625.9
+mosek_iqr_us=125.449

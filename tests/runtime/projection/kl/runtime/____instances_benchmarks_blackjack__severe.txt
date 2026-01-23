@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=severe.amb
+fast_mean_us=42.992
+fast_median_us=43.195
+fast_iqr_us=2.313
+mosek_mean_us=8481.84
+mosek_median_us=8296.6
+mosek_iqr_us=1086.02

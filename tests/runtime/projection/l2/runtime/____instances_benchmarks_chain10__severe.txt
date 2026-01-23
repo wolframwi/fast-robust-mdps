@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/chain10
+amb=severe.amb
+fast_mean_us=1.3401
+fast_median_us=1.262
+fast_iqr_us=0.382
+cplex_mean_us=192.462
+cplex_median_us=192.771
+cplex_iqr_us=8.012
+gurobi_mean_us=788.044
+gurobi_median_us=775.94
+gurobi_iqr_us=36.304
+mosek_mean_us=436.814
+mosek_median_us=430.528
+mosek_iqr_us=17.126

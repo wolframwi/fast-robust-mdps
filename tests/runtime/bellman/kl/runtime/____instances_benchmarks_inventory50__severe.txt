@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=severe.amb
+fast_mean_us=144.157
+fast_median_us=146.301
+fast_iqr_us=16.425
+mosek_mean_us=8310.69
+mosek_median_us=8413.02
+mosek_iqr_us=1557.65

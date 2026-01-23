@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large / external sources (adjust as needed)
+_sources/open_spiel/
+_sources/
+
+# Large generated / instance files (temporarily ignored)
+instances/**/*.mdp
+instances/**/*.amb

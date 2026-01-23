@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=severe.amb
+avg_abs_fast_mosek=0.000652297
+max_abs_fast_mosek=0.021723
+avg_abs_fast_cplex=0.000653012
+max_abs_fast_cplex=0.0217194
+avg_abs_fast_gurobi=0.000652241
+max_abs_fast_gurobi=0.0217228

@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/frozenlake4x4
+amb=moderate.amb
+homotopy_mean_us=2.18732
+homotopy_median_us=2.433
+homotopy_iqr_us=0.651

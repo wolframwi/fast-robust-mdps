@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/cliffwalking
+amb=mild.amb
+fast_vi_iterations=910
+mosek_vi_iterations=910
+fast_vi_s=11.7439
+mosek_vi_s=293.88
+vi_infty_diff_fast_mosek=5.25042e-05
+mosek_failed=0

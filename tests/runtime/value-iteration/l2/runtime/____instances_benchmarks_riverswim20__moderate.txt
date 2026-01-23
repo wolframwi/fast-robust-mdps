@@ -1,0 +1,17 @@
+instance=../../../../instances/benchmarks/riverswim20
+amb=moderate.amb
+fast_vi_iterations=224
+cplex_vi_iterations=223
+gurobi_vi_iterations=224
+mosek_vi_iterations=223
+fast_vi_s=0.0673481
+cplex_vi_s=3.07576
+gurobi_vi_s=4.72351
+mosek_vi_s=2.67393
+vi_infty_diff_fast_cplex=0.000122685
+vi_infty_diff_fast_gurobi=8.59133e-06
+vi_infty_diff_fast_mosek=0.000130785
+fast_failed=0
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

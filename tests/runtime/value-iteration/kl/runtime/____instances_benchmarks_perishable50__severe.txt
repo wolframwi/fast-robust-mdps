@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=severe.amb
+fast_vi_iterations=985
+mosek_vi_iterations=985
+fast_vi_s=7.12946
+mosek_vi_s=398.932
+vi_infty_diff_fast_mosek=5.82732e-05
+mosek_failed=0

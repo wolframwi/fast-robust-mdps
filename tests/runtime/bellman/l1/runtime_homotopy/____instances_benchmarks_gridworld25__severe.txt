@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/gridworld25
+amb=severe.amb
+homotopy_mean_us=1.28344
+homotopy_median_us=1.252
+homotopy_iqr_us=0.05

@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/riverswim6
+amb=severe.amb
+fast_vi_iterations=407
+mosek_vi_iterations=406
+fast_vi_s=0.0819488
+mosek_vi_s=1.51247
+vi_infty_diff_fast_mosek=0.00013046
+mosek_failed=0

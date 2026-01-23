@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/cliffwalking
+amb=mild.amb
+homotopy_mean_us=1.46563
+homotopy_median_us=1.342
+homotopy_iqr_us=0.42

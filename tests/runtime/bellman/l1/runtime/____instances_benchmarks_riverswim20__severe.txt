@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/riverswim20
+amb=severe.amb
+fast_mean_us=15.5339
+fast_median_us=14.932
+fast_iqr_us=1.622
+cplex_mean_us=381.781
+cplex_median_us=378.26
+cplex_iqr_us=50.266
+gurobi_mean_us=1092.7
+gurobi_median_us=1085.65
+gurobi_iqr_us=81.582
+mosek_mean_us=910.667
+mosek_median_us=903.131
+mosek_iqr_us=36.135

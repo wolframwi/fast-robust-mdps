@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=mild.amb
+fast_mean_us=2.59924
+fast_median_us=2.694
+fast_iqr_us=0.801
+cplex_mean_us=337.703
+cplex_median_us=339.101
+cplex_iqr_us=54.323
+gurobi_mean_us=1151.46
+gurobi_median_us=1148.96
+gurobi_iqr_us=77.777
+mosek_mean_us=530.834
+mosek_median_us=520.184
+mosek_iqr_us=57.515

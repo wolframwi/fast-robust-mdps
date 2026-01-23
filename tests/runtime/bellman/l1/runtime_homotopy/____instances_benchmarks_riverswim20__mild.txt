@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/riverswim20
+amb=mild.amb
+homotopy_mean_us=1.64529
+homotopy_median_us=1.652
+homotopy_iqr_us=0.23

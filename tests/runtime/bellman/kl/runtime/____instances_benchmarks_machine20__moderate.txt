@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/machine20
+amb=moderate.amb
+fast_mean_us=44.644
+fast_median_us=46.15
+fast_iqr_us=3.935
+mosek_mean_us=1221.56
+mosek_median_us=1209.81
+mosek_iqr_us=131.407

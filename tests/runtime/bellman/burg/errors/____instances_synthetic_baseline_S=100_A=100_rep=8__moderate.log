@@ -1,0 +1,6 @@
+instance=../../../../instances/synthetic/baseline/S=100/A=100/rep=8
+amb=moderate.amb
+exception s=92 a=21 mosek MOSEK failed to solve Burg Bellman (sol=1, prob=0)
+exception s=48 a=45 mosek MOSEK failed to solve Burg Bellman (sol=1, prob=0)
+avg_abs_fast_mosek=0.000139893
+max_abs_fast_mosek=0.000223154

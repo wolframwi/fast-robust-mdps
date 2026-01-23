@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/chain10
+amb=moderate.amb
+fast_vi_iterations=828
+mosek_vi_iterations=829
+fast_vi_s=0.284838
+mosek_vi_s=7.02157
+vi_infty_diff_fast_mosek=5.4622e-05
+mosek_failed=0

@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/machine20
+amb=mild.amb
+avg_obj_fast_mosek=0
+max_obj_fast_mosek=0
+avg_obj_fast_gurobi=0
+max_obj_fast_gurobi=0
+avg_obj_fast_cplex=0
+max_obj_fast_cplex=0

@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/riverswim20
+amb=mild.amb
+avg_abs_fast_mosek=3.29158e-07
+max_abs_fast_mosek=7.06131e-07
+avg_abs_fast_cplex=3.29158e-07
+max_abs_fast_cplex=7.06131e-07
+avg_abs_fast_gurobi=3.29158e-07
+max_abs_fast_gurobi=7.06131e-07

@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/machine20
+amb=severe.amb
+fast_vi_iterations=822
+mosek_vi_iterations=822
+fast_vi_s=0.405331
+mosek_vi_s=22.705
+vi_infty_diff_fast_mosek=6.40929e-05
+mosek_failed=0

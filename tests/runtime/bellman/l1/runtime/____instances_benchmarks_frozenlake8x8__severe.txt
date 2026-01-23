@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/frozenlake8x8
+amb=severe.amb
+fast_mean_us=64.1583
+fast_median_us=60.361
+fast_iqr_us=26.81
+cplex_mean_us=1512.61
+cplex_median_us=1619.02
+cplex_iqr_us=295.045
+gurobi_mean_us=1936.77
+gurobi_median_us=1925.88
+gurobi_iqr_us=80.791
+mosek_mean_us=3235.39
+mosek_median_us=3248.54
+mosek_iqr_us=103.626

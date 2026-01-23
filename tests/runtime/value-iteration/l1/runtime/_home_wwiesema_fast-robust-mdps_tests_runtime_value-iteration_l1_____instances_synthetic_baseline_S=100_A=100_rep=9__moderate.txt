@@ -1,0 +1,10 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/l1/../../../../instances/synthetic/baseline/S=100/A=100/rep=9
+amb=moderate.amb
+fast_vi_iterations=876
+fast_vi_s=50.1811
+cplex_vi_iterations=875
+cplex_vi_s=7651.05
+cplex_failed=0
+mosek_vi_iterations=875
+mosek_vi_s=14463.3
+mosek_failed=0

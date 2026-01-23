@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/chain10
+amb=moderate.amb
+avg_abs_fast_mosek=1.59275e-06
+max_abs_fast_mosek=6.00874e-06

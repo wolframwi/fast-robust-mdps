@@ -1,0 +1,3 @@
+instance=../../../../instances/benchmarks/blackjack
+amb=moderate.amb
+exception value_iteration mosek MOSEK failed to solve Burg Bellman (sol=1, prob=0)

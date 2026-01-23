@@ -1,0 +1,5 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=mild.amb
+homotopy_mean_us=23.6685
+homotopy_median_us=25.378
+homotopy_iqr_us=1.172

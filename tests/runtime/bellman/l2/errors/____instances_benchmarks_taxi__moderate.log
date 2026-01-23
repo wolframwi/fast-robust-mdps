@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/taxi
+amb=moderate.amb
+avg_abs_fast_mosek=0.000669979
+max_abs_fast_mosek=0.00125951
+avg_abs_fast_cplex=0.331672
+max_abs_fast_cplex=0.645207
+avg_abs_fast_gurobi=0.00138774
+max_abs_fast_gurobi=0.036739

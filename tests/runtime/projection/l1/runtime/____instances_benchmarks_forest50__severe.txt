@@ -1,0 +1,14 @@
+instance=../../../../instances/benchmarks/forest50
+amb=severe.amb
+fast_mean_us=3.16237
+fast_median_us=0.961
+fast_iqr_us=4.988
+cplex_mean_us=319.99
+cplex_median_us=320.173
+cplex_iqr_us=63.385
+gurobi_mean_us=885.744
+gurobi_median_us=891.773
+gurobi_iqr_us=59.138
+mosek_mean_us=544.934
+mosek_median_us=542.548
+mosek_iqr_us=41.403

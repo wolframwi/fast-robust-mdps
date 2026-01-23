@@ -1,0 +1,7 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/burg/../../../../instances/synthetic/deviations/sparsity/fully_dense/S=20/A=10/rep=4
+amb=fully_dense.amb
+fast_vi_iterations=867
+fast_vi_s=0.939129
+mosek_vi_iterations=867
+mosek_vi_s=78.8662
+mosek_failed=0

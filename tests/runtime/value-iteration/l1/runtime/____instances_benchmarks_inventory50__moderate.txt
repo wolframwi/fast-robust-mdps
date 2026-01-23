@@ -1,0 +1,16 @@
+instance=../../../../instances/benchmarks/inventory50
+amb=moderate.amb
+fast_vi_iterations=982
+cplex_vi_iterations=980
+gurobi_vi_iterations=980
+mosek_vi_iterations=980
+fast_vi_s=1.9575
+cplex_vi_s=52.3834
+gurobi_vi_s=77.9834
+mosek_vi_s=146.999
+vi_infty_diff_fast_cplex=0.000153712
+vi_infty_diff_fast_gurobi=0.000153712
+vi_infty_diff_fast_mosek=0.000153712
+cplex_failed=0
+gurobi_failed=0
+mosek_failed=0

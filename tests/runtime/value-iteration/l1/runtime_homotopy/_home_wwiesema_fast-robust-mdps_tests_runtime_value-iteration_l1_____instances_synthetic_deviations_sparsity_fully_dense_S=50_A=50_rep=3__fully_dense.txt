@@ -1,0 +1,4 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/l1/../../../../instances/synthetic/deviations/sparsity/fully_dense/S=50/A=50/rep=3
+amb=fully_dense.amb
+homotopy_vi_iterations=867
+homotopy_vi_s=439.605

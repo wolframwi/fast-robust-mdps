@@ -1,0 +1,3 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/burg/../../../../instances/synthetic/deviations/stochasticity/near_deterministic/S=50/A=50/rep=6
+amb=near_deterministic.amb
+exception value_iteration mosek MOSEK failed to solve Burg Bellman (sol=1, prob=0)

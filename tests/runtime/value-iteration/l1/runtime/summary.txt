@@ -1,0 +1,4 @@
+total_instances=45
+cplex_failed_instances=0
+gurobi_failed_instances=0
+mosek_failed_instances=0

@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/perishable50
+amb=mild.amb
+homotopy_vi_iterations=998
+homotopy_vi_s=1.03755

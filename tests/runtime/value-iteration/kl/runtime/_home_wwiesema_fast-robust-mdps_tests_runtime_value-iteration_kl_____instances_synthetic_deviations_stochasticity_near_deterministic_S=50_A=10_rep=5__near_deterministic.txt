@@ -1,0 +1,4 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/kl/../../../../instances/synthetic/deviations/stochasticity/near_deterministic/S=50/A=10/rep=5
+amb=near_deterministic.amb
+fast_vi_iterations=895
+fast_vi_s=7.52751

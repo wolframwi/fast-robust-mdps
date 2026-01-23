@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/openspiel_grid16
+amb=mild.amb
+fast_mean_us=51.4384
+fast_median_us=42.074
+fast_iqr_us=4.748
+mosek_mean_us=3268.64
+mosek_median_us=3023.3
+mosek_iqr_us=340.924

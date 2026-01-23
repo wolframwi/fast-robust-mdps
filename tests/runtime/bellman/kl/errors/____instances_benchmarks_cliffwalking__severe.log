@@ -1,0 +1,4 @@
+instance=../../../../instances/benchmarks/cliffwalking
+amb=severe.amb
+avg_abs_fast_mosek=3.25873e-07
+max_abs_fast_mosek=6.7793e-07

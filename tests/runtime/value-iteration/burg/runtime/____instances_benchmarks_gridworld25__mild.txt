@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/gridworld25
+amb=mild.amb
+fast_vi_iterations=621
+mosek_vi_iterations=622
+fast_vi_s=0.78536
+mosek_vi_s=39.9822
+vi_infty_diff_fast_mosek=8.99387e-05
+mosek_failed=0

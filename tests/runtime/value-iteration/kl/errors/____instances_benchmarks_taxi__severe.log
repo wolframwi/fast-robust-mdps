@@ -1,0 +1,3 @@
+instance=../../../../instances/benchmarks/taxi
+amb=severe.amb
+exception value_iteration mosek MOSEK failed to solve KL Bellman (sol=1, prob=0)

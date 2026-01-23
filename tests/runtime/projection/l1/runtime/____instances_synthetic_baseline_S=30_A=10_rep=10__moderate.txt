@@ -1,0 +1,14 @@
+instance=../../../../instances/synthetic/baseline/S=30/A=10/rep=10
+amb=moderate.amb
+fast_mean_us=4.31522
+fast_median_us=4.366
+fast_iqr_us=1.061
+cplex_mean_us=438.965
+cplex_median_us=442.847
+cplex_iqr_us=64.607
+gurobi_mean_us=1320.63
+gurobi_median_us=1329.08
+gurobi_iqr_us=122.025
+mosek_mean_us=741.742
+mosek_median_us=742.449
+mosek_iqr_us=89.254

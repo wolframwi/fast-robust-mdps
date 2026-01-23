@@ -1,0 +1,8 @@
+instance=../../../../instances/benchmarks/capacity50
+amb=moderate.amb
+fast_vi_iterations=1056
+mosek_vi_iterations=1059
+fast_vi_s=16.5286
+mosek_vi_s=502.438
+vi_infty_diff_fast_mosek=8.64374e-05
+mosek_failed=0

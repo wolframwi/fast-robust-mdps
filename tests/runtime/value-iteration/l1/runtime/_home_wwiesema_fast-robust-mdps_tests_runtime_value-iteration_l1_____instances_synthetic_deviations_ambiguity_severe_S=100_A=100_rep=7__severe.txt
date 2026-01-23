@@ -1,0 +1,7 @@
+instance=/home/wwiesema/fast-robust-mdps/tests/runtime/value-iteration/l1/../../../../instances/synthetic/deviations/ambiguity/severe/S=100/A=100/rep=7
+amb=severe.amb
+fast_vi_iterations=872
+fast_vi_s=55.8363
+cplex_vi_iterations=872
+cplex_vi_s=11417.4
+cplex_failed=0
