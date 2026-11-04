@@ -1,3 +1,0 @@
-instance=../../../../instances/benchmarks/forest50
-amb=severe.amb
-exception value_iteration fast value_iteration: maximum iterations reached
